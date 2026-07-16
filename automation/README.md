@@ -3,9 +3,9 @@
 Automates the Shopify store for HOODSTARWORLD streetwear (hsw365.co /
 pc9bg8-gv.myshopify.com).
 
-## What it does (`scripts/inventory_guardian.py`)
+## What it does
 
-Runs every 30 minutes via GitHub Actions (`.github/workflows/inventory_guardian.yml`):
+### `scripts/inventory_guardian.py` — runs every 30 minutes
 
 1. **Auto-archives sold 1-of-1 pieces.** Every Survivor Collection tee is a
    single unit. The instant a variant's inventory hits 0, the product is
@@ -16,7 +16,18 @@ Runs every 30 minutes via GitHub Actions (`.github/workflows/inventory_guardian.
 3. **Daily digest.** Once per day, emails a one-line snapshot of pieces still
    live and units remaining across both product lines.
 
-Emails go to `hsw365media@gmail.com` by default (override with the
+### `scripts/discount_rotator.py` — runs once daily (13:00 UTC / 9am EDT)
+
+1. Flags any Founder's Print Series design as a "slow mover" once it's been
+   live 14+ days and under 12% sold (fewer than 3 of 25 units).
+2. Auto-creates a 15%-off, 7-day discount code scoped to that one design
+   (e.g. `SLOW-MIDNIGHT-SHRAPNEL`) — skips designs that already have an
+   active code, and skips entirely if a sitewide/all-items sale (like
+   `PUSH10K`) is currently running, so offers never stack confusingly.
+3. Emails a summary of any codes created so you can pair them with a quick
+   post.
+
+Both scripts email `hsw365media@gmail.com` by default (override with the
 `NOTIFY_EMAIL` secret).
 
 ## One-time setup required (cannot be done from here)
