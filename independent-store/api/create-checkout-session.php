@@ -39,7 +39,7 @@ try {
   $payload["line_items[$i][quantity]"]=$line['quantity'];
   if($line['interval']!=='one_time')$payload["line_items[$i][price_data][recurring][interval]"]=$line['interval'];
  }
- if($hasPhysical)$payload['shipping_options[0][shipping_rate]']=$config['stripe_shipping_rate_id'];
+ if($hasPhysical){$payload['shipping_address_collection[allowed_countries][0]']='US';$payload['shipping_address_collection[allowed_countries][1]']='CA';$payload['shipping_options[0][shipping_rate]']=$config['stripe_shipping_rate_id'];}
  if(!empty($config['stripe_automatic_tax']))$payload['automatic_tax[enabled]']='true';
  if($isSubscription)$payload['subscription_data[metadata][order_ref]']=$orderRef;
  $session=stripe_request('POST','checkout/sessions',$payload);
