@@ -17,7 +17,7 @@ try{
   if($ref!==''){
    $stmt=$pdo->prepare("UPDATE orders SET status='paid',stripe_payment_intent=?,customer_email=?,shipping_json=?,paid_at=NOW() WHERE order_ref=? AND status='pending_payment'");
    $stmt->execute([$object['payment_intent']??null,$object['customer_details']['email']??null,json_encode($object['shipping_details']??[]),$ref]);
-   $stmt=$pdo->prepare("INSERT IGNORE INTO fulfillment_jobs (order_ref,provider,status,created_at) VALUES (?,'unassigned','needs_mapping',NOW())");$stmt->execute([$ref]);
+   queue_fulfillment_jobs($pdo,$ref);
    if(!empty($object['subscription'])){
     $stmt=$pdo->prepare("INSERT INTO subscriptions (stripe_subscription_id,order_ref,customer_email,status,created_at) VALUES (?,?,?,'active',NOW()) ON DUPLICATE KEY UPDATE customer_email=VALUES(customer_email),status='active'");
     $stmt->execute([$object['subscription'],$ref,$object['customer_details']['email']??null]);
