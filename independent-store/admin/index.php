@@ -17,7 +17,7 @@ if($loggedIn && isset($_POST['save_product'])) {
  $pdo=db();$id=filter_var($_POST['product_id']??null,FILTER_VALIDATE_INT);
  if($id){
   $status=($_POST['status']??'draft')==='active'?'active':'draft';
-  $category=in_array($_POST['category']??'', ['merch','music','books','digital','apps'],true)?$_POST['category']:'merch';
+  $category=in_array($_POST['category']??'', ['merch','music','acts','apps','books','digital'],true)?$_POST['category']:'merch';
   $s=$pdo->prepare('UPDATE products SET status=?,category=? WHERE id=?');$s->execute([$status,$category,$id]);
   foreach(($_POST['variants']??[]) as $variantId=>$v){
    $vid=filter_var($variantId,FILTER_VALIDATE_INT);if(!$vid)continue;
