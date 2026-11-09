@@ -46,9 +46,9 @@ declare(strict_types=1);
         <button class="filter" data-category="merch" id="merch">Merch</button>
         <button class="filter" data-category="music" id="music">Music</button>
         <button class="filter" data-category="acts" id="acts">Acts</button>
+        <button class="filter" data-category="apps" id="apps">Apps</button>
         <button class="filter" data-category="books" id="books">Books</button>
         <button class="filter" data-category="digital" id="digital">Digital</button>
-        <button class="filter" data-category="apps" id="apps">Apps</button>
         <button class="filter" data-category="apps" id="apps">Apps</button>
       </div>
       <p class="notice" id="store-notice" role="status">Loading the collection…</p>
