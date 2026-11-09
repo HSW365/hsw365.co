@@ -22,6 +22,7 @@ CREATE TABLE IF NOT EXISTS product_variants (
   title VARCHAR(255) NOT NULL,
   sku VARCHAR(100) NULL,
   price DECIMAL(10,2) NOT NULL,
+  billing_interval ENUM('one_time','month','year') NOT NULL DEFAULT 'one_time',
   inventory_quantity INT NULL,
   options_json JSON NULL,
   provider ENUM('unassigned','printful','cj','manual','digital') NOT NULL DEFAULT 'unassigned',
@@ -47,6 +48,18 @@ CREATE TABLE IF NOT EXISTS orders (
   paid_at DATETIME NULL,
   created_at DATETIME NOT NULL,
   INDEX idx_orders_status_created (status, created_at)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS subscriptions (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  stripe_subscription_id VARCHAR(255) NOT NULL UNIQUE,
+  order_ref CHAR(32) NOT NULL,
+  customer_email VARCHAR(255) NULL,
+  status VARCHAR(40) NOT NULL DEFAULT 'incomplete',
+  current_period_end DATETIME NULL,
+  created_at DATETIME NOT NULL,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  INDEX idx_subscriptions_status (status)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS stripe_webhook_events (
