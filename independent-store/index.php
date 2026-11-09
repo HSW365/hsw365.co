@@ -16,7 +16,7 @@ declare(strict_types=1);
   <header class="site-header">
     <a class="brand" href="/" aria-label="HSW365 home"><span>HSW</span><b>365</b></a>
     <nav aria-label="Main navigation">
-      <a href="#merch">Merch</a><a href="#music">Music</a><a href="#books">Books</a><a href="#digital">Digital</a>
+      <a href="#merch">Merch</a><a href="#music">Music</a><a href="#acts">Acts</a><a href="#books">Books</a><a href="#digital">Digital</a>
     </nav>
     <button class="cart-toggle" id="cart-toggle" type="button">Bag <span id="cart-count">0</span></button>
   </header>
@@ -34,7 +34,7 @@ declare(strict_types=1);
       </div>
     </section>
     <section class="category-strip" aria-label="Store categories">
-      <a href="#merch">01 / MERCH</a><a href="#music">02 / MUSIC</a><a href="#books">03 / BOOKS</a><a href="#digital">04 / DIGITAL</a><a href="#apps">05 / APPS</a><a href="#apps">05 / APPS</a>
+      <a href="#merch">01 / MERCH</a><a href="#music">02 / MUSIC</a><a href="#acts">03 / ACTS</a><a href="#apps">04 / APPS</a><a href="#books">05 / BOOKS</a><a href="#digital">06 / DIGITAL</a><a href="#apps">05 / APPS</a>
     </section>
     <section class="shop-section" id="shop">
       <div class="section-heading">
@@ -45,6 +45,7 @@ declare(strict_types=1);
         <button class="filter active" data-category="all">All</button>
         <button class="filter" data-category="merch" id="merch">Merch</button>
         <button class="filter" data-category="music" id="music">Music</button>
+        <button class="filter" data-category="acts" id="acts">Acts</button>
         <button class="filter" data-category="books" id="books">Books</button>
         <button class="filter" data-category="digital" id="digital">Digital</button>
         <button class="filter" data-category="apps" id="apps">Apps</button>
