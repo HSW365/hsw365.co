@@ -12,7 +12,7 @@ if(strlen($ref)===32 && str_starts_with($sessionId,'cs_')) {
    if(($session['client_reference_id']??'')===$ref && ($session['payment_status']??'')==='paid') {
     $stmt=$pdo->prepare("UPDATE orders SET status='paid',stripe_payment_intent=?,customer_email=?,shipping_json=?,paid_at=COALESCE(paid_at,NOW()) WHERE order_ref=?");
     $stmt->execute([$session['payment_intent']??null,$session['customer_details']['email']??null,json_encode($session['shipping_details']??[]),$ref]);
-    $stmt=$pdo->prepare("INSERT IGNORE INTO fulfillment_jobs (order_ref,provider,status,created_at) VALUES (?,'unassigned','needs_mapping',NOW())");$stmt->execute([$ref]);
+    queue_fulfillment_jobs($pdo,$ref);
     $paid=true;
    } else {$paid=($order['status']==='paid');}
   }
