@@ -1,0 +1,361 @@
+{%- comment -%}
+  HSW365 Flagship homepage. Self-contained: brand styles, real products pulled from collections.
+  Edit text and images in the theme editor; product rows update automatically from collections.
+{%- endcomment -%}
+{%- assign c_survivor = collections[section.settings.survivor_collection] -%}
+{%- assign c_apps = collections[section.settings.apps_collection] -%}
+{%- assign c_build = collections[section.settings.build_collection] -%}
+{%- assign c_street = collections[section.settings.street_collection] -%}
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+
+<div class="hsx" id="hsx-{{ section.id }}">
+<style>
+  #hsx-{{ section.id }}{--bg:#fff8f1;--bg2:#ffffff;--bg3:#fff0e5;--line:#ead8cc;--tx:#241d35;--mut:#625b70;--cy:#00a6a6;--vi:#7c3aed;--rd:#ef476f;--yl:#f4a261;
+    background:var(--bg);color:var(--tx);font-family:'Inter',sans-serif;overflow:hidden}
+  #hsx-{{ section.id }} *{box-sizing:border-box}
+  #hsx-{{ section.id }} a{color:inherit;text-decoration:none}
+  .hsx .wrap{max-width:1280px;margin:0 auto;padding:0 24px}
+  .hsx .mono{font-family:'Space Mono',monospace;letter-spacing:.16em;text-transform:uppercase;font-size:12px}
+  .hsx .disp{font-family:'Barlow Condensed',sans-serif;font-weight:800;text-transform:uppercase;line-height:.92;letter-spacing:-.005em;margin:0;color:#fff}
+  .hsx .grad{background:linear-gradient(90deg,var(--cy),var(--vi));-webkit-background-clip:text;background-clip:text;color:transparent}
+  .hsx .btn{display:inline-flex;align-items:center;gap:10px;padding:16px 26px;border-radius:999px;font-weight:700;font-size:15px;transition:transform .2s,box-shadow .2s,background .2s}
+  .hsx .btn-p{background:linear-gradient(90deg,var(--cy),var(--vi));color:#05050a}
+  .hsx .btn-p:hover{transform:translateY(-2px);box-shadow:0 12px 40px rgba(168,85,247,.35)}
+  .hsx .btn-g{border:1px solid #3a3a50;color:#fff}
+  .hsx .btn-g:hover{border-color:var(--cy);background:rgba(34,211,238,.06)}
+  .hsx section{position:relative}
+  .hsx .sec{padding:110px 0}
+  .hsx .head{display:flex;justify-content:space-between;align-items:flex-end;gap:24px;margin-bottom:40px;flex-wrap:wrap}
+  .hsx .head h2{font-size:clamp(40px,6vw,76px)}
+  .hsx .head p{max-width:440px;color:var(--mut);margin:0;font-size:16px;line-height:1.6}
+  .hsx .kick{color:var(--cy);margin-bottom:14px;display:block}
+
+  /* HERO */
+  .hsx .hero{min-height:92vh;display:flex;align-items:center;padding:120px 0 90px}
+  .hsx .hero-bg{position:absolute;inset:0;background-size:cover;background-position:center right}
+  .hsx .hero-bg:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,248,241,.98) 0%,rgba(255,248,241,.90) 38%,rgba(255,248,241,.45) 75%,rgba(255,248,241,.25) 100%),linear-gradient(0deg,var(--bg) 0%,transparent 30%)}
+  .hsx .hero .wrap{position:relative;z-index:2;width:100%}
+  .hsx .hero h1{font-size:clamp(58px,10vw,148px);max-width:900px}
+  .hsx .hero .lead{font-size:clamp(17px,1.6vw,21px);line-height:1.55;color:#cfcfe0;max-width:560px;margin:26px 0 36px}
+  .hsx .hero .ctas{display:flex;gap:14px;flex-wrap:wrap}
+  .hsx .stats{display:flex;gap:44px;margin-top:64px;flex-wrap:wrap}
+  .hsx .stat b{display:block;font-family:'Barlow Condensed';font-size:44px;font-weight:800;color:#fff;line-height:1}
+  .hsx .stat span{color:var(--mut);font-size:13px}
+
+  /* MARQUEE */
+  .hsx .mq{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--bg2);overflow:hidden;white-space:nowrap;padding:18px 0}
+  .hsx .mq-in{display:inline-flex;gap:48px;animation:hsxmq 38s linear infinite}
+  .hsx .mq-in span{font-family:'Barlow Condensed';font-weight:700;font-size:26px;text-transform:uppercase;color:#fff;display:inline-flex;align-items:center;gap:48px}
+  .hsx .mq-in span:after{content:'';width:10px;height:10px;background:var(--cy);transform:rotate(45deg);display:inline-block}
+  @keyframes hsxmq{to{transform:translateX(-50%)}}
+
+  /* PILLARS */
+  .hsx .pillars{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .hsx .pill{position:relative;border:1px solid var(--line);border-radius:22px;background:var(--bg2);padding:30px 26px 26px;min-height:360px;display:flex;flex-direction:column;overflow:hidden;transition:border-color .25s,transform .25s}
+  .hsx .pill:hover{transform:translateY(-4px);border-color:var(--a)}
+  .hsx .pill:before{content:'';position:absolute;inset:auto -30% -40% auto;width:260px;height:260px;border-radius:50%;background:var(--a);filter:blur(90px);opacity:.18}
+  .hsx .pill .n{color:var(--a)}
+  .hsx .pill h3{font-family:'Barlow Condensed';font-weight:800;font-size:40px;text-transform:uppercase;color:#fff;line-height:.95;margin:18px 0 12px}
+  .hsx .pill p{color:var(--mut);font-size:15px;line-height:1.55;margin:0}
+  .hsx .pill .go{margin-top:auto;padding-top:24px;font-weight:700;color:#fff;display:flex;align-items:center;gap:10px}
+  .hsx .pill .go i{width:34px;height:34px;border-radius:50%;border:1px solid var(--a);display:inline-flex;align-items:center;justify-content:center;font-style:normal;color:var(--a);transition:background .2s}
+  .hsx .pill:hover .go i{background:var(--a);color:#05050a}
+
+  /* PRODUCT RAIL */
+  .hsx .rail{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+  .hsx .card{border-radius:18px;overflow:hidden;background:var(--bg2);border:1px solid var(--line);transition:border-color .25s,transform .25s;display:flex;flex-direction:column}
+  .hsx .card:hover{border-color:#3d3d58;transform:translateY(-4px)}
+  .hsx .card .im{aspect-ratio:4/5;background:var(--bg3);overflow:hidden}
+  .hsx .card img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
+  .hsx .card:hover img{transform:scale(1.05)}
+  .hsx .card .in{padding:16px 16px 18px}
+  .hsx .card .t{font-weight:600;font-size:15px;line-height:1.35;color:#fff;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:40px}
+  .hsx .card .p{font-family:'Space Mono';color:var(--cy);font-size:14px;margin-top:8px}
+
+  /* SPOTLIGHT */
+  .hsx .spot{display:grid;grid-template-columns:1.05fr 1fr;gap:56px;align-items:center;border:1px solid var(--line);border-radius:28px;background:radial-gradient(80% 90% at 100% 0%,rgba(168,85,247,.18),transparent 60%),radial-gradient(60% 70% at 0% 100%,rgba(34,211,238,.12),transparent 60%),var(--bg2);padding:64px}
+  .hsx .spot h2{font-size:clamp(46px,6vw,86px)}
+  .hsx .spot .lead{color:#cfcfe0;font-size:18px;line-height:1.6;margin:22px 0 28px}
+  .hsx .feat{list-style:none;padding:0;margin:0 0 34px;display:grid;grid-template-columns:1fr 1fr;gap:12px 20px}
+  .hsx .feat li{position:relative;padding-left:22px;color:#dcdce8;font-size:15px}
+  .hsx .feat li:before{content:'';position:absolute;left:2px;top:7px;width:9px;height:9px;background:var(--cy);transform:rotate(45deg)}
+  .hsx .plans{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+  .hsx .plan{border:1px solid #2c2c40;border-radius:16px;padding:20px;background:rgba(10,10,15,.6)}
+  .hsx .plan.hot{border-color:var(--vi);box-shadow:inset 0 0 0 1px var(--vi)}
+  .hsx .plan b{font-family:'Barlow Condensed';font-size:24px;text-transform:uppercase;color:#fff;display:block}
+  .hsx .plan em{font-style:normal;font-family:'Space Mono';color:var(--cy);font-size:13px;display:block;margin:4px 0 8px}
+  .hsx .plan span{color:var(--mut);font-size:13px;line-height:1.45;display:block}
+  .hsx .tag{display:inline-block;font-family:'Space Mono';font-size:10px;letter-spacing:.14em;background:var(--vi);color:#fff;padding:3px 8px;border-radius:99px;margin-bottom:8px}
+
+  /* LADDER */
+  .hsx .ladder{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;align-items:end}
+  .hsx .rung{border:1px solid var(--line);border-radius:20px;background:var(--bg2);padding:26px;display:flex;flex-direction:column;transition:border-color .25s}
+  .hsx .rung:hover{border-color:var(--yl)}
+  .hsx .rung .pr{font-family:'Barlow Condensed';font-weight:800;font-size:56px;color:#fff;line-height:1}
+  .hsx .rung h4{font-family:'Barlow Condensed';font-size:22px;text-transform:uppercase;color:#fff;margin:12px 0 8px;line-height:1.05}
+  .hsx .rung p{color:var(--mut);font-size:14px;line-height:1.5;margin:0 0 18px}
+  .hsx .rung .mono{color:var(--yl);margin-top:auto}
+  .hsx .r1{min-height:280px}.hsx .r2{min-height:320px}.hsx .r3{min-height:360px}.hsx .r4{min-height:400px;border-color:rgba(251,191,36,.45)}
+
+  /* FOUNDER */
+  .hsx .founder{display:grid;grid-template-columns:1fr 1.1fr;gap:64px;align-items:center}
+  .hsx .founder .ph{border-radius:26px;overflow:hidden;aspect-ratio:4/5;background:var(--bg3);border:1px solid var(--line)}
+  .hsx .founder .ph img{width:100%;height:100%;object-fit:cover}
+  .hsx .founder h2{font-size:clamp(44px,5.5vw,78px)}
+  .hsx .founder blockquote{margin:28px 0;padding-left:20px;border-left:4px solid var(--yl);font-size:22px;line-height:1.45;color:#fff;font-weight:600}
+  .hsx .founder p{color:#c9c9d8;font-size:16px;line-height:1.7}
+  .hsx .creds{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px}
+  .hsx .creds span{border:1px solid #333348;border-radius:99px;padding:8px 14px;font-size:13px;color:#dcdce8}
+
+  /* LIVE */
+  .hsx .live{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+  .hsx .lv{border:1px solid var(--line);border-radius:20px;padding:30px;background:var(--bg2);display:flex;flex-direction:column;min-height:250px;transition:border-color .25s}
+  .hsx .lv:hover{border-color:var(--rd)}
+  .hsx .lv .dot{display:inline-flex;align-items:center;gap:8px;color:var(--rd)}
+  .hsx .lv .dot:before{content:'';width:8px;height:8px;border-radius:50%;background:var(--rd);box-shadow:0 0 0 0 rgba(239,68,68,.6);animation:hsxp 1.8s infinite}
+  @keyframes hsxp{70%{box-shadow:0 0 0 10px rgba(239,68,68,0)}100%{box-shadow:0 0 0 0 rgba(239,68,68,0)}}
+  .hsx .lv h4{font-family:'Barlow Condensed';font-size:32px;text-transform:uppercase;color:#fff;margin:16px 0 10px;line-height:1}
+  .hsx .lv p{color:var(--mut);font-size:15px;line-height:1.55;margin:0 0 20px}
+  .hsx .lv a.l{margin-top:auto;font-weight:700;color:#fff;border-bottom:1px solid var(--rd);align-self:flex-start;padding-bottom:3px}
+
+  /* CTA */
+  .hsx .cta{border-radius:30px;padding:90px 48px;text-align:center;background:radial-gradient(70% 120% at 50% 0%,rgba(34,211,238,.22),transparent 60%),radial-gradient(60% 100% at 50% 100%,rgba(168,85,247,.25),transparent 60%),var(--bg2);border:1px solid var(--line)}
+  .hsx .cta h2{font-size:clamp(48px,8vw,112px)}
+  .hsx .cta p{color:#cfcfe0;font-size:18px;max-width:560px;margin:22px auto 34px;line-height:1.6}
+  .hsx .cta form{display:flex;gap:10px;max-width:520px;margin:0 auto;flex-wrap:wrap;justify-content:center}
+  .hsx .cta input[type=email]{flex:1;min-width:240px;background:#0a0a0f;border:1px solid #34344a;border-radius:999px;padding:16px 22px;color:#fff;font-size:15px;font-family:'Inter'}
+  .hsx .cta input[type=email]:focus{outline:none;border-color:var(--cy)}
+  .hsx .cta button{border:0;cursor:pointer}
+  .hsx .ok{color:var(--cy);margin-top:14px}
+
+  /* REVEAL */
+  .hsx .rv{opacity:0;transform:translateY(28px);transition:opacity .8s ease,transform .8s ease}
+  .hsx .rv.in{opacity:1;transform:none}
+  @media (prefers-reduced-motion:reduce){.hsx .rv{opacity:1;transform:none}.hsx .mq-in{animation:none}}
+
+  @media (max-width:1024px){
+    .hsx .pillars,.hsx .rail,.hsx .ladder{grid-template-columns:repeat(2,1fr)}
+    .hsx .spot,.hsx .founder{grid-template-columns:1fr;padding:40px}
+    .hsx .founder{padding:0}
+    .hsx .live{grid-template-columns:1fr}
+    .hsx .r1,.hsx .r2,.hsx .r3,.hsx .r4{min-height:0}
+  }
+  @media (max-width:600px){
+    .hsx .wrap{padding:0 16px}
+    .hsx .sec{padding:72px 0}
+    .hsx .pillars,.hsx .ladder{grid-template-columns:1fr}
+    .hsx .rail{grid-template-columns:repeat(2,1fr);gap:10px}
+    .hsx .spot{padding:28px 20px}
+    .hsx .feat,.hsx .plans{grid-template-columns:1fr}
+    .hsx .stats{gap:26px}
+    .hsx .cta{padding:60px 20px}
+    .hsx .pill{min-height:0}
+  }
+
+  /* HSW365 conversion-focused refresh: bright, optimistic, accessible */
+  #hsx-{{ section.id }}{background:var(--bg);color:var(--tx)}
+  #hsx-{{ section.id }} .disp{color:#241d35}
+  #hsx-{{ section.id }} .grad{background-image:linear-gradient(100deg,#008e96 0%,#7c3aed 55%,#ef476f 100%);-webkit-background-clip:text;background-clip:text;color:transparent}
+  #hsx-{{ section.id }} .hero .lead,#hsx-{{ section.id }} .head p,#hsx-{{ section.id }} .pill p,#hsx-{{ section.id }} .spot .lead,#hsx-{{ section.id }} .rung p,#hsx-{{ section.id }} .founder p,#hsx-{{ section.id }} .lv p,#hsx-{{ section.id }} .cta p{color:#51495f}
+  #hsx-{{ section.id }} .kick{color:#008e96}
+  #hsx-{{ section.id }} .btn-p{background:linear-gradient(100deg,#00b7b0,#8b5cf6 58%,#ef476f);color:#fff}
+  #hsx-{{ section.id }} .btn-g{border-color:#d8c8dd;color:#241d35;background:rgba(255,255,255,.72)}
+  #hsx-{{ section.id }} .mq{background:#fff;border-color:#ead8cc}
+  #hsx-{{ section.id }} .mq-in span{color:#241d35}
+  #hsx-{{ section.id }} .mq-in span:after{background:#ef476f}
+  #hsx-{{ section.id }} .pill,#hsx-{{ section.id }} .card,#hsx-{{ section.id }} .rung,#hsx-{{ section.id }} .lv{background:#fff;border-color:#ead8cc;box-shadow:0 12px 34px rgba(61,35,72,.045)}
+  #hsx-{{ section.id }} .pill h3,#hsx-{{ section.id }} .rung h4,#hsx-{{ section.id }} .lv h4,#hsx-{{ section.id }} .card .t,#hsx-{{ section.id }} .plan b{color:#241d35}
+  #hsx-{{ section.id }} .pill .go,#hsx-{{ section.id }} .lv a.l{color:#241d35}
+  #hsx-{{ section.id }} .card .im{background:#fff0e5}
+  #hsx-{{ section.id }} .card .p{color:#008e96}
+  #hsx-{{ section.id }} .spot{background:radial-gradient(70% 100% at 100% 0%,rgba(124,58,237,.12),transparent 60%),radial-gradient(60% 80% at 0% 100%,rgba(0,166,166,.13),transparent 60%),#fff;border-color:#ead8cc;box-shadow:0 20px 60px rgba(61,35,72,.06)}
+  #hsx-{{ section.id }} .feat li{color:#51495f}
+  #hsx-{{ section.id }} .plan{background:#fff8f1;border-color:#ead8cc}
+  #hsx-{{ section.id }} .plan em{color:#008e96}
+  #hsx-{{ section.id }} .plan span{color:#625b70}
+  #hsx-{{ section.id }} .tag{background:#ef476f;color:#fff}
+  #hsx-{{ section.id }} .rung .pr{color:#241d35}
+  #hsx-{{ section.id }} .rung .mono{color:#9a5b00}
+  #hsx-{{ section.id }} .founder blockquote{border-color:#ef476f;color:#241d35}
+  #hsx-{{ section.id }} .ph{background:#fff0e5;border-color:#ead8cc}
+  #hsx-{{ section.id }} .creds span{border-color:#dfd0e6;color:#51495f;background:#fff}
+  #hsx-{{ section.id }} .lv .dot{color:#d92f5c}
+  #hsx-{{ section.id }} .cta{background:radial-gradient(70% 120% at 0% 0%,rgba(0,183,176,.17),transparent 60%),radial-gradient(60% 100% at 100% 100%,rgba(239,71,111,.16),transparent 60%),#fff;border-color:#ead8cc}
+  #hsx-{{ section.id }} .cta input[type=email]{background:#fff;color:#241d35;border-color:#d8c8dd}
+  #hsx-{{ section.id }} .cta input[type=email]::placeholder{color:#82788f}
+  #hsx-{{ section.id }} .ok{color:#008e96}
+  @media(max-width:600px){#hsx-{{ section.id }} .hero{min-height:80vh;padding-top:92px}#hsx-{{ section.id }} .stats{margin-top:42px}}
+
+</style>
+
+{%- comment -%} HERO {%- endcomment -%}
+<section class="hero">
+  <div class="hero-bg" style="background-image:url('{% if section.settings.hero_image != blank %}{{ section.settings.hero_image | image_url: width: 2400 }}{% elsif section.settings.hero_url != blank %}{{ section.settings.hero_url }}{% else %}{{ 'hsw365-hero.png' | asset_url }}{% endif %}')"></div>
+  <div class="wrap">
+    <span class="mono kick rv">{{ section.settings.hero_kicker }}</span>
+    <h1 class="disp rv">{{ section.settings.hero_line1 }}<br><span class="grad">{{ section.settings.hero_line2 }}</span></h1>
+    <p class="lead rv">{{ section.settings.hero_text }}</p>
+    <div class="ctas rv">
+      <a class="btn btn-p" href="{{ section.settings.hero_cta1_link | default: '/collections/all' }}">{{ section.settings.hero_cta1 }} <span aria-hidden="true">&rarr;</span></a>
+      <a class="btn btn-g" href="{{ section.settings.hero_cta2_link | default: '/collections/all' }}">{{ section.settings.hero_cta2 }}</a>
+    </div>
+    <div class="stats rv">
+      <div class="stat"><b>24/7</b><span>AI receptionist coverage</span></div>
+      <div class="stat"><b>1 of 1</b><span>Survivor Collection pieces</span></div>
+      <div class="stat"><b>4</b><span>Published books</span></div>
+      <div class="stat"><b>100%</b><span>Veteran-owned</span></div>
+    </div>
+  </div>
+</section>
+
+<div class="mq" aria-hidden="true"><div class="mq-in">
+  {%- for i in (1..2) -%}
+    <span>Turn Negative Into Positive</span><span>AI Business Tools</span><span>Survivor Collection</span><span>HSW365 Media Build Series</span><span>Live Experiences</span><span>Veteran-Owned</span>
+  {%- endfor -%}
+</div></div>
+
+{%- comment -%} PILLARS {%- endcomment -%}
+<section class="sec"><div class="wrap">
+  <div class="head rv"><div><span class="mono kick">The HSW365 Universe</span><h2 class="disp">Four ways<br>to plug in</h2></div><p>One founder. One brand. Tools that grow your business, clothes with a story, systems that teach you to build, and live experiences that move rooms.</p></div>
+  <div class="pillars">
+    <a class="pill rv" style="--a:var(--cy)" href="/collections/{{ section.settings.apps_collection }}"><span class="mono n">01 / Tech</span><h3>AI Business Tools</h3><p>CallTwin answers every call 24/7, captures every lead and follows up, so you never lose a customer to voicemail again.</p><span class="go"><i>&rarr;</i>Explore tools</span></a>
+    <a class="pill rv" style="--a:var(--rd)" href="/collections/{{ section.settings.survivor_collection }}"><span class="mono n">02 / Wear</span><h3>Survivor Collection</h3><p>Hand-bleached, signed, one-of-one pieces. Every shirt carries the story of a comeback. When it's gone, it's gone.</p><span class="go"><i>&rarr;</i>Shop the drop</span></a>
+    <a class="pill rv" style="--a:var(--yl)" href="/collections/{{ section.settings.build_collection }}"><span class="mono n">03 / Learn</span><h3>Build Series</h3><p>The exact prompts, mindset reset and master course behind a one-man company. Instant download.</p><span class="go"><i>&rarr;</i>Start building</span></a>
+    <a class="pill rv" style="--a:var(--vi)" href="{{ section.settings.live_link | default: '#hsx-live' }}"><span class="mono n">04 / Live</span><h3>Live &amp; Partners</h3><p>Keynotes, live performances and brand partnerships with a veteran, author and recording artist.</p><span class="go"><i>&rarr;</i>Book or partner</span></a>
+  </div>
+</div></section>
+
+{%- comment -%} CALLTWIN SPOTLIGHT {%- endcomment -%}
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="spot rv">
+    <div>
+      <span class="mono kick">Flagship product</span>
+      <h2 class="disp">Never miss<br><span class="grad">another customer</span></h2>
+      <p class="lead">CallTwin is your 24/7 AI receptionist. It answers your business line, qualifies the caller, captures their details, flags emergencies and follows up by text, all logged to your dashboard.</p>
+      <ul class="feat"><li>Answers every call, 24/7</li><li>Captures every lead</li><li>Routes urgent calls first</li><li>SMS follow-up built in</li><li>Keep your business number</li><li>Done-for-you setup</li></ul>
+      <div class="ctas" style="display:flex;gap:12px;flex-wrap:wrap"><a class="btn btn-p" href="{{ section.settings.calltwin_link }}">Get CallTwin <span aria-hidden="true">&rarr;</span></a><a class="btn btn-g" href="https://calltwin.onrender.com" target="_blank" rel="noopener">Try the live demo</a></div>
+    </div>
+    <div class="plans">
+      <div class="plan"><b>License Only</b><em>$500 one-time</em><span>Own it outright. You run the infrastructure.</span></div>
+      <div class="plan"><b>Care</b><em>$500 + $49/mo</em><span>Hosted, maintained and updated for you.</span></div>
+      <div class="plan hot"><span class="tag">MOST POPULAR</span><b>Pro</b><em>$500 + $99/mo</em><span>Priority support, call-flow updates and monitoring.</span></div>
+      <div class="plan"><b>Managed</b><em>$500 + $199/mo</em><span>Fully managed with custom changes.</span></div>
+    </div>
+  </div>
+</div></section>
+
+{%- comment -%} SURVIVOR RAIL {%- endcomment -%}
+{%- if c_survivor.products.size > 0 -%}
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="head rv"><div><span class="mono kick" style="color:var(--rd)">Limited. Signed. One of one.</span><h2 class="disp">The Survivor<br>Collection</h2></div><a class="btn btn-g" href="{{ c_survivor.url }}">View all</a></div>
+  <div class="rail">
+    {%- for p in c_survivor.products limit: 8 -%}
+      <a class="card rv" href="{{ p.url }}"><div class="im">{%- if p.featured_image -%}<img src="{{ p.featured_image | image_url: width: 700 }}" alt="{{ p.featured_image.alt | default: p.title | escape }}" loading="lazy" width="700" height="875">{%- endif -%}</div><div class="in"><div class="t">{{ p.title }}</div><div class="p">{{ p.price | money }}</div></div></a>
+    {%- endfor -%}
+  </div>
+</div></section>
+{%- endif -%}
+
+{%- comment -%} BUILD SERIES LADDER {%- endcomment -%}
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="head rv"><div><span class="mono kick" style="color:var(--yl)">HSW365 Media Build Series</span><h2 class="disp">Learn the system<br>that built this</h2></div><p>Four steps from mindset to empire. Each one prepares you for the next. Instant digital download.</p></div>
+  <div class="ladder">
+    <a class="rung r1 rv" href="{{ c_build.url }}"><div class="pr">$17</div><h4>Turn Negative Into Positive</h4><p>The 7-Day Reset. Train the skill of turning every L into fuel.</p><span class="mono">Mindset</span></a>
+    <a class="rung r2 rv" href="{{ c_build.url }}"><div class="pr">$27</div><h4>Ship It</h4><p>20 battle-tested Claude prompts to build and launch digital products.</p><span class="mono">Build</span></a>
+    <a class="rung r3 rv" href="{{ c_build.url }}"><div class="pr">$97</div><h4>The HSW365 Blueprint</h4><p>The master course. Build a digital empire solo with AI.</p><span class="mono">System</span></a>
+    <a class="rung r4 rv" href="{{ c_build.url }}"><div class="pr">$500</div><h4>Solo Empire</h4><p>The one-man founder system. The top of the ladder.</p><span class="mono">Empire</span></a>
+  </div>
+</div></section>
+
+{%- comment -%} FOUNDER {%- endcomment -%}
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="founder">
+    <div class="ph rv">{%- if section.settings.founder_image != blank -%}<img src="{{ section.settings.founder_image | image_url: width: 1200 }}" alt="Elvin Torres Sr." loading="lazy">{%- elsif c_survivor.products.first.featured_image -%}<img src="{{ c_survivor.products.first.featured_image | image_url: width: 1200 }}" alt="HSW365 Survivor Collection" loading="lazy">{%- endif -%}</div>
+    <div class="rv">
+      <span class="mono kick">The founder</span>
+      <h2 class="disp">Built from<br><span class="grad">the bottom up</span></h2>
+      <blockquote>"Every setback was raw material. HSW365 is what I built with it."</blockquote>
+      <p>Elvin Torres Sr., known as Hoodstar365, is a U.S. Army veteran, published author, recording artist and motivational speaker. He runs HSW365 as a one-man company powered by AI: software, streetwear, books and live experiences, all under one creed.</p>
+      <div class="creds"><span>U.S. Army Veteran</span><span>Author of 4 books</span><span>Recording Artist</span><span>Keynote Speaker</span><span>Host, Respect Da Game</span></div>
+    </div>
+  </div>
+</div></section>
+
+{%- comment -%} LIVE {%- endcomment -%}
+<section class="sec" id="hsx-live" style="padding-top:0"><div class="wrap">
+  <div class="head rv"><div><span class="mono kick" style="color:var(--rd)">Live</span><h2 class="disp">In the room<br>or on the stream</h2></div></div>
+  <div class="live">
+    <div class="lv rv"><span class="mono dot">Keynotes</span><h4>The Journey Continues</h4><p>A motivational keynote, live music and book signing for schools, veteran groups, colleges and corporate events.</p><a class="l" href="mailto:book@hoodstar365.com?subject=Booking%20Inquiry">Book Hoodstar365</a></div>
+    <div class="lv rv"><span class="mono dot">Streams</span><h4>HSW365 Live</h4><p>Virtual performances, new music and live Q&amp;A. Catch the next stream on Twitch.</p><a class="l" href="https://twitch.tv/hoodstar365" target="_blank" rel="noopener">Watch on Twitch</a></div>
+    <div class="lv rv"><span class="mono dot">Partners</span><h4>Brand Partnerships</h4><p>Put your brand in front of the HSW365 audience across streams, the podcast, the tour and drops. From $1,000.</p><a class="l" href="mailto:book@hoodstar365.com?subject=Brand%20Partnership">Partner with us</a></div>
+  </div>
+</div></section>
+
+{%- comment -%} STREETWEAR RAIL {%- endcomment -%}
+{%- if c_street.products.size > 0 -%}
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="head rv"><div><span class="mono kick">Everyday wear</span><h2 class="disp">Streetwear<br>drops</h2></div><a class="btn btn-g" href="{{ c_street.url }}">Shop streetwear</a></div>
+  <div class="rail">
+    {%- for p in c_street.products limit: 4 -%}
+      <a class="card rv" href="{{ p.url }}"><div class="im">{%- if p.featured_image -%}<img src="{{ p.featured_image | image_url: width: 700 }}" alt="{{ p.featured_image.alt | default: p.title | escape }}" loading="lazy" width="700" height="875">{%- endif -%}</div><div class="in"><div class="t">{{ p.title }}</div><div class="p">{{ p.price | money }}</div></div></a>
+    {%- endfor -%}
+  </div>
+</div></section>
+{%- endif -%}
+
+{%- comment -%} EMAIL CTA {%- endcomment -%}
+<section class="sec" style="padding-top:0"><div class="wrap">
+  <div class="cta rv">
+    <span class="mono kick">Join the movement</span>
+    <h2 class="disp">Turn negative<br><span class="grad">into positive</span></h2>
+    <p>Get first access to Survivor drops, new tools and live dates. No spam. Just the moves.</p>
+    {%- form 'customer', id: 'hsx-signup' -%}
+      <input type="hidden" name="contact[tags]" value="newsletter,homepage">
+      <input type="email" name="contact[email]" placeholder="Your email" required aria-label="Email address">
+      <button type="submit" class="btn btn-p">Get access</button>
+      {%- if form.posted_successfully? -%}<div class="ok mono" style="width:100%">You're in.</div>{%- endif -%}
+    {%- endform -%}
+  </div>
+</div></section>
+
+<script>
+(function(){var r=document.querySelectorAll('#hsx-{{ section.id }} .rv');
+if(!('IntersectionObserver' in window)){r.forEach(function(e){e.classList.add('in')});return;}
+var o=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');o.unobserve(e.target);}})},{threshold:.12});
+r.forEach(function(e){o.observe(e)});})();
+</script>
+</div>
+
+{% schema %}
+{
+  "name": "HSW365 Flagship",
+  "tag": "div",
+  "class": "hsw365-flagship",
+  "settings": [
+    { "type": "header", "content": "Hero" },
+    { "type": "image_picker", "id": "hero_image", "label": "Hero image (overrides URL)" },
+    { "type": "text", "id": "hero_url", "label": "Hero image URL" },
+    { "type": "text", "id": "hero_kicker", "label": "Kicker", "default": "HSW365 · Veteran-owned since day one" },
+    { "type": "text", "id": "hero_line1", "label": "Headline line 1", "default": "Turn negative" },
+    { "type": "text", "id": "hero_line2", "label": "Headline line 2", "default": "into positive" },
+    { "type": "textarea", "id": "hero_text", "label": "Subheadline", "default": "AI tools that grow your business. Streetwear with a story. Systems that teach you to build. All from one veteran founder." },
+    { "type": "text", "id": "hero_cta1", "label": "Button 1 text", "default": "Get CallTwin" },
+    { "type": "url", "id": "hero_cta1_link", "label": "Button 1 link" },
+    { "type": "text", "id": "hero_cta2", "label": "Button 2 text", "default": "Shop the Survivor drop" },
+    { "type": "url", "id": "hero_cta2_link", "label": "Button 2 link" },
+    { "type": "header", "content": "Links & collections" },
+    { "type": "url", "id": "calltwin_link", "label": "CallTwin product link" },
+    { "type": "url", "id": "live_link", "label": "Live & partners link" },
+    { "type": "text", "id": "survivor_collection", "label": "Survivor collection handle", "default": "survivor-collection" },
+    { "type": "text", "id": "apps_collection", "label": "Apps collection handle", "default": "hsw365-services" },
+    { "type": "text", "id": "build_collection", "label": "Build Series collection handle", "default": "hsw365-media-build-series" },
+    { "type": "text", "id": "street_collection", "label": "Streetwear collection handle", "default": "streetwear-drops" },
+    { "type": "header", "content": "Founder" },
+    { "type": "image_picker", "id": "founder_image", "label": "Founder photo" }
+  ],
+  "presets": [{ "name": "HSW365 Flagship" }]
+}
+{% endschema %}
