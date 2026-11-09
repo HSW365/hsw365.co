@@ -9,7 +9,9 @@ IONOS Deploy Now provides a PHP runtime and MariaDB for PHP projects. It does **
 ## Included in this first build
 
 - Responsive HSW365 storefront with product search, category filters and cart.
-- Product catalog API backed by MariaDB.
+- Product catalog API backed by MariaDB, including product options and variant-level prices/SKUs/inventory.
+- Password-protected admin area to review products, categories, variants and recent orders.
+- Verified order confirmation page.
 - Server-side Stripe Checkout Session creation; prices are always read from the database, never trusted from the browser.
 - Stripe webhook signature verification and paid-order recording.
 - CSV product importer for Shopify's standard product export.
@@ -33,7 +35,7 @@ Set these in the IONOS runtime configuration / secrets panel. Never place live c
 1. Create a MariaDB database in IONOS.
 2. Import `database/schema.sql` using phpMyAdmin or the IONOS database console.
 3. Set the database environment variables.
-4. Import the Shopify product CSV with `php scripts/import-shopify-csv.php /path/to/products_export.csv` from a PHP CLI environment. The importer is safe to rerun by Shopify handle.
+4. The full Shopify catalog export is in `data/shopify-products-export.json` (59 products / 216 variants). Import it with `php scripts/import-shopify-json.php data/shopify-products-export.json` from a PHP CLI environment. All imported products and variants remain DRAFT until reviewed and activated in `/admin/`. The importer is safe to rerun by Shopify handle.
 5. Confirm product prices, variants, inventory, images and categories before opening the store.
 
 ## Stripe setup
