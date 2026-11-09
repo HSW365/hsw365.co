@@ -34,7 +34,7 @@ declare(strict_types=1);
       </div>
     </section>
     <section class="category-strip" aria-label="Store categories">
-      <a href="#merch">01 / MERCH</a><a href="#music">02 / MUSIC</a><a href="#books">03 / BOOKS</a><a href="#digital">04 / DIGITAL</a>
+      <a href="#merch">01 / MERCH</a><a href="#music">02 / MUSIC</a><a href="#books">03 / BOOKS</a><a href="#digital">04 / DIGITAL</a><a href="#apps">05 / APPS</a>
     </section>
     <section class="shop-section" id="shop">
       <div class="section-heading">
@@ -47,6 +47,7 @@ declare(strict_types=1);
         <button class="filter" data-category="music" id="music">Music</button>
         <button class="filter" data-category="books" id="books">Books</button>
         <button class="filter" data-category="digital" id="digital">Digital</button>
+        <button class="filter" data-category="apps" id="apps">Apps</button>
       </div>
       <p class="notice" id="store-notice" role="status">Loading the collection…</p>
       <div class="product-grid" id="product-grid"></div>
