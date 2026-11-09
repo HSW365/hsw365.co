@@ -10,7 +10,7 @@ IONOS Deploy Now provides PHP and MariaDB for PHP projects, but no Node.js runti
 
 - Responsive storefront with search, collection filters, product images, variant selection and cart.
 - Product catalog API backed by MariaDB.
-- Export of all 59 active Shopify products and 216 variants from the connected HSW365 store.
+- Export of all 59 Shopify products (57 ACTIVE, 1 UNLISTED, 1 DRAFT) and 216 variants, including product descriptions and primary images.
 - Password-protected admin area to review categories, product status, variant status and recent orders.
 - Server-side Stripe Checkout; prices and inventory are read from MariaDB, not trusted from browser input.
 - Monthly Stripe subscription checkout for app memberships, separated from one-time goods.
