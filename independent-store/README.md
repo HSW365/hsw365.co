@@ -12,7 +12,7 @@ IONOS Deploy Now provides a PHP runtime and MariaDB for PHP projects. It does **
 - Product catalog API backed by MariaDB, including product options and variant-level prices/SKUs/inventory.
 - Password-protected admin area to review products, categories, variants and recent orders.
 - Verified order confirmation page.
-- Server-side Stripe Checkout Session creation; prices are always read from the database, never trusted from the browser.
+- Server-side Stripe Checkout Session creation; prices are always read from the database, never trusted from the browser. Monthly App memberships use recurring Stripe subscriptions and are checked out separately from other products.
 - Stripe webhook signature verification and paid-order recording.
 - CSV product importer for Shopify's standard product export.
 - Fulfillment queue schema and provider integration boundary for Printful and CJ Dropshipping.
@@ -24,7 +24,7 @@ IONOS Deploy Now provides a PHP runtime and MariaDB for PHP projects. It does **
 - `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`
 - `APP_BASE_URL`
 
-Optional provider credentials (not active until configured):
+Required before physical products can be sold: `STRIPE_SHIPPING_RATE_ID` (create and test a shipping rate in Stripe). Set `STRIPE_AUTOMATIC_TAX=true` only after Stripe Tax is configured for the business. The initial checkout accepts US and Canada shipping only.\n\nOptional provider credentials (not active until configured):
 - `PRINTFUL_API_TOKEN`
 - `CJ_API_KEY`
 
