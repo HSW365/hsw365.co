@@ -1,0 +1,25 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hsw365_flagship": {
+      "type": "hsw365-flagship",
+      "settings": {
+        "hero_cta1_link": "shopify://products/calltwin-pro",
+        "hero_cta2_link": "shopify://collections/survivor-collection",
+        "calltwin_link": "shopify://products/calltwin-pro",
+        "founder_image": "shopify://shop_images/hsw_1of1_custom_hsw_hoodies_promo_pics_4.png"
+      }
+    }
+  },
+  "order": [
+    "hsw365_flagship"
+  ]
+}
