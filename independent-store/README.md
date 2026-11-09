@@ -1,70 +1,68 @@
 # HSW365 Independent Store
 
-A standalone HSW365 storefront foundation designed for IONOS Deploy Now PHP hosting. It is deliberately separate from the Shopify theme export so the original Shopify store remains available during migration.
+Standalone HSW365 storefront foundation for IONOS Deploy Now PHP hosting. This is a new independent commerce app, not a Shopify theme upload. The Shopify store remains available during migration.
 
 ## Hosting architecture
 
-IONOS Deploy Now provides a PHP runtime and MariaDB for PHP projects. It does **not** provide a Node.js runtime for server-side applications. This project therefore uses PHP + MariaDB for checkout APIs and a lightweight browser storefront. GitHub Actions may use Node at build time, but the live site must not depend on Node running on IONOS.
+IONOS Deploy Now provides PHP and MariaDB for PHP projects, but no Node.js runtime for server-side applications. This project uses PHP + MariaDB for commerce APIs and browser JavaScript for the storefront. Node can be used by GitHub Actions during build only.
 
-## Included in this first build
+## Built in this branch
 
-- Responsive HSW365 storefront with product search, category filters and cart.
-- Product catalog API backed by MariaDB, including product options and variant-level prices/SKUs/inventory.
-- Password-protected admin area to review products, categories, variants and recent orders.
-- Verified order confirmation page.
-- Server-side Stripe Checkout Session creation; prices are always read from the database, never trusted from the browser. Monthly App memberships use recurring Stripe subscriptions and are checked out separately from other products.
-- Stripe webhook signature verification and paid-order recording.
-- CSV product importer for Shopify's standard product export.
-- Fulfillment queue schema and provider integration boundary for Printful and CJ Dropshipping.
-- Environment-based secrets; no API keys committed.
+- Responsive storefront with search, collection filters, product images, variant selection and cart.
+- Product catalog API backed by MariaDB.
+- Export of all 59 active Shopify products and 216 variants from the connected HSW365 store.
+- Password-protected admin area to review categories, product status, variant status and recent orders.
+- Server-side Stripe Checkout; prices and inventory are read from MariaDB, not trusted from browser input.
+- Monthly Stripe subscription checkout for app memberships, separated from one-time goods.
+- Stripe webhook signature verification, order persistence and subscription status updates.
+- Fulfillment queue foundation for Printful, CJ Dropshipping and manual/digital delivery.
+- Environment-based credentials; no live secrets stored in GitHub.
 
-## Required environment variables
+## Deployment and secrets
 
-- `DB_HOST`, `DB_NAME`, `DB_USER`, `DB_PASSWORD`
-- `STRIPE_SECRET_KEY`, `STRIPE_WEBHOOK_SECRET`
-- `APP_BASE_URL`
+Deploy the independent-store/ project directory as a PHP project in IONOS Deploy Now. Create a MariaDB database and set these environment secrets in the IONOS project:
 
-Required before physical products can be sold: `STRIPE_SHIPPING_RATE_ID` (create and test a shipping rate in Stripe). Set `STRIPE_AUTOMATIC_TAX=true` only after Stripe Tax is configured for the business. The initial checkout accepts US and Canada shipping only.\n\nOptional provider credentials (not active until configured):
-- `PRINTFUL_API_TOKEN`
-- `CJ_API_KEY`
+- APP_BASE_URL
+- DB_HOST, DB_NAME, DB_USER, DB_PASSWORD
+- STRIPE_SECRET_KEY, STRIPE_WEBHOOK_SECRET
+- ADMIN_PASSWORD
 
-Set these in the IONOS runtime configuration / secrets panel. Never place live credentials in GitHub.
+Also set STRIPE_SHIPPING_RATE_ID before enabling physical products. Create and test the shipping rate in Stripe first. Set STRIPE_AUTOMATIC_TAX=true only after Stripe Tax is configured for the business. Initial shipping collection is limited to US and Canada.
 
-## Database setup
+Optional provider secrets (not active until product mappings and test orders are verified):
+- PRINTFUL_API_TOKEN
+- CJ_API_KEY
 
-1. Create a MariaDB database in IONOS.
-2. Import `database/schema.sql` using phpMyAdmin or the IONOS database console.
-3. Set the database environment variables.
-4. The full Shopify catalog export is in `data/shopify-products-export.json` (59 products / 216 variants). Import it with `php scripts/import-shopify-json.php data/shopify-products-export.json` from a PHP CLI environment. All imported products and variants remain DRAFT until reviewed and activated in `/admin/`. The importer is safe to rerun by Shopify handle.
-5. Confirm product prices, variants, inventory, images and categories before opening the store.
+Copy config.example.php to config.php on the host (never commit the live config). The .htaccess blocks direct access to config.php.
+
+## Database and product migration
+
+1. Import database/schema.sql into the IONOS MariaDB database.
+2. Upload data/shopify-products-export.json with the project.
+3. Run php scripts/import-shopify-json.php data/shopify-products-export.json from a PHP CLI environment.
+4. The importer loads 59 products and 216 variants as DRAFT. Nothing is published automatically.
+5. Review every product and variant in /admin/; check images, prices, inventory, digital delivery, and supplier mappings before activating.
+
+The exported Liquid theme in ../shopify-theme/ is a design reference, not standalone application code. Its Shopify-specific Liquid objects and checkout APIs are not usable on IONOS.
 
 ## Stripe setup
 
-1. Create a Stripe account or use the existing account.
-2. Set `STRIPE_SECRET_KEY` as an environment secret.
-3. Register `https://YOUR-DOMAIN/api/stripe-webhook.php` in Stripe for `checkout.session.completed` and `checkout.session.async_payment_succeeded`.
-4. Set the signing secret as `STRIPE_WEBHOOK_SECRET`.
-5. Test with Stripe test keys and test cards before switching to live mode.
+1. Set Stripe test keys first.
+2. Register https://YOUR-DOMAIN/api/stripe-webhook.php in Stripe for checkout.session.completed, checkout.session.async_payment_succeeded, invoice.paid, customer.subscription.updated, and customer.subscription.deleted.
+3. Store the webhook signing secret as STRIPE_WEBHOOK_SECRET.
+4. Create a shipping rate in Stripe and set STRIPE_SHIPPING_RATE_ID before activating physical products.
+5. Test one-time digital purchases, app subscriptions, and physical-product shipping separately. Only switch to live keys after all tests pass.
 
-The browser is redirected to Stripe-hosted Checkout. Card data never touches this server.
+Card data is entered on Stripe-hosted Checkout and does not touch this server.
 
 ## Fulfillment rollout
 
-Payment capture and fulfillment are intentionally separate. Paid orders enter a queue; no supplier order is submitted automatically until the product-to-provider variant mapping, shipping method, taxes/duties behavior, and provider credentials are verified. This prevents accidental supplier charges or incorrect shipments.
+Paid orders are recorded and placed in a fulfillment queue. Supplier orders are NOT submitted automatically yet. That requires provider credentials, exact variant mapping, address validation, supplier shipping methods and a test order.
 
-- Printful: configure a manual/API store and map each HSW365 SKU to its Printful sync variant. Use the Printful Orders API and webhooks for shipment updates.
-- CJ Dropshipping: obtain API credentials, exchange them for an access token, map each HSW365 SKU to CJ variant IDs, then create/pay orders and receive logistics updates.
-- Products without a provider mapping remain in the manual-fulfillment queue.
+- Printful: create a manual/API store, map HSW365 SKUs to Printful sync variants, then implement order submission and shipment webhooks.
+- CJ Dropshipping: obtain API credentials, exchange them for an access token, map HSW365 SKUs to CJ variant IDs, then implement order creation, payment and logistics webhooks.
+- Digital goods and memberships still need secure file delivery or app-specific membership provisioning.
 
-## Important migration gates
+## Do not switch DNS or cancel Shopify yet
 
-Do not cancel Shopify, change DNS, or redirect customers until:
-- all 59 currently imported products and their variants/media are reconciled against Shopify;
-- product prices, inventory, shipping, taxes and refund policies are checked;
-- Stripe test and live checkout flows pass;
-- paid orders persist and confirmation emails are tested;
-- Printful and CJ test orders and tracking webhooks pass;
-- customer/order history migration and privacy/consent requirements are addressed;
-- backup, restore and admin access are tested.
-
-The exported Liquid theme in `../shopify-theme/` is a design reference, not executable standalone code. This storefront rebuilds the commerce behavior independently.
+Before launch, reconcile products/variants/images; confirm shipping and taxes; test Stripe; test email receipts; connect fulfillment and tracking; migrate required customer/order data; test backups and restore; and verify admin access. Keep Shopify intact until all launch gates pass.
