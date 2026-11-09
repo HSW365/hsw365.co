@@ -1,0 +1,28 @@
+name: Independent store checks
+on:
+  push:
+    branches: [independent-store-build]
+    paths:
+      - 'independent-store/**'
+      - '.github/workflows/independent-store-lint.yml'
+  pull_request:
+    branches: [main]
+    paths:
+      - 'independent-store/**'
+jobs:
+  php-and-js:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: shivammathur/setup-php@v2
+        with:
+          php-version: '8.3'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: PHP syntax
+        run: find independent-store -name '*.php' -print0 | xargs -0 -n1 php -l
+      - name: JavaScript syntax
+        run: node --check independent-store/assets/store.js
+      - name: Catalog JSON
+        run: python -m json.tool independent-store/data/shopify-products-export.json > /dev/null

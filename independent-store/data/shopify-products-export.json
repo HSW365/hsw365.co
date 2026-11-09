@@ -1,0 +1,4124 @@
+{
+  "source": "Shopify Admin API export",
+  "store": "hsw365.co",
+  "exported_at": "2026-11-09",
+  "note": "59 products exported; 57 ACTIVE, 1 UNLISTED, 1 DRAFT in Shopify. Imported as draft listings in the replacement store pending review.",
+  "product_count": 59,
+  "products": [
+    {
+      "shopify_product_id": "gid://shopify/Product/8563028033697",
+      "handle": "survivor-tee-crimson-fracture-001",
+      "title": "HSW365 Founder's Edition — Survivor Collection #001 \"Crimson Fracture\"",
+      "description_html": "<p><strong>One-of-One. Hand-Bleached. Personally Signed.</strong></p>\n<p><strong>Crimson Fracture</strong> is where the story starts - the moment everything cracked and there was no clean way back to who you were before. This is piece #001 of the Survivor Collection: eight garments hand-bleached and signed by Army veteran Elvin Torres Sr., built as collector art rather than merchandise.</p>\n<p>This is a true one-of-one. No reprints, no restocks. When it sells, this part of the story is gone for good.</p>\n<p>You're not buying inventory. You're buying proof - a wearable answer to anyone who wonders what you've been through and how you're still standing. When you put this on, you're not explaining your story. You're wearing it.</p>\n<p><strong>Sizing:</strong> True to size on a heavyweight cotton cut. Check the size chart before you buy - once this leaves the shop, there's no exchange on a one-of-one.</p>\n<p><em>Not ready for the original? A signed <a href=\"/products/survivor-collection-founders-print-series-limited-edition-of-25\">Crimson Fracture print</a> is available, limited to 25.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/IMG_8712.jpg?v=1782132977",
+      "image_alt": "Crimson Fracture print",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46575826927777",
+          "title": "L",
+          "sku": "HSW365-SURV-001-L",
+          "price": "120.00",
+          "inventory_quantity": 1,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8563028099233",
+      "handle": "survivor-tee-gold-rush-002",
+      "title": "HSW365 Founder's Edition — Survivor Collection #002 \"Gold Rush\"",
+      "description_html": "<p><strong>One-of-One. Hand-Bleached. Personally Signed.</strong></p><p><strong>Gold Rush</strong> is the climb - the first real proof that surviving was going to turn into something worth having. This is piece #002 of the Survivor Collection: eight garments hand-bleached and signed by Army veteran Elvin Torres Sr., built as collector art rather than merchandise.</p><p>This is a true one-of-one. No reprints, no restocks. When it sells, this part of the story is gone for good.</p><p>You're not buying inventory. You're buying proof - a wearable answer to anyone who wonders what you've been through and how you're still standing. When you put this on, you're not explaining your story. You're wearing it.</p><p><strong>Sizing:</strong> True to size on a heavyweight cotton cut. Check the size chart before you buy - once this leaves the shop, there's no exchange on a one-of-one.</p><p><em>Not ready for the original? A signed <a href=\"/products/survivor-collection-founders-print-series-limited-edition-of-25\">Gold Rush print</a> is available, limited to 25.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/1_9b43db3d-73a7-426e-9651-81f45c6a55b8.png?v=1782144842",
+      "image_alt": "Gold Rush print",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46575827026081",
+          "title": "L",
+          "sku": "HSW365-SURV-002-L",
+          "price": "120.00",
+          "inventory_quantity": 1,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8563028656289",
+      "handle": "survivor-tee-midnight-shrapnel-003",
+      "title": "HSW365 Founder's Edition — Survivor Collection #003 \"Midnight Shrapnel\"",
+      "description_html": "<p><strong>One-of-One. Hand-Bleached. Personally Signed.</strong></p><p><strong>Midnight Shrapnel</strong> is the residue - the scars that never fully close and the pieces that keep moving under the surface long after the worst is over. This is piece #003 of the Survivor Collection: eight garments hand-bleached and signed by Army veteran Elvin Torres Sr., built as collector art rather than merchandise.</p><p>This is a true one-of-one. No reprints, no restocks. When it sells, this part of the story is gone for good.</p><p>You're not buying inventory. You're buying proof - a wearable answer to anyone who wonders what you've been through and how you're still standing. When you put this on, you're not explaining your story. You're wearing it.</p><p><strong>Sizing:</strong> True to size on a heavyweight cotton cut. Check the size chart before you buy - once this leaves the shop, there's no exchange on a one-of-one.</p><p><em>Not ready for the original? A signed <a href=\"/products/survivor-collection-founders-print-series-limited-edition-of-25\">Midnight Shrapnel print</a> is available, limited to 25.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hsw365_survivor_blue_purple.jpg?v=1782142926",
+      "image_alt": "Midnight Shrapnel print",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46575832268961",
+          "title": "L",
+          "sku": "HSW365-SURV-003-L",
+          "price": "120.00",
+          "inventory_quantity": 1,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8563028754593",
+      "handle": "survivor-tee-blood-orbit-004",
+      "title": "HSW365 Founder's Edition — Survivor Collection #004 \"Blood Orbit\"",
+      "description_html": "<p><strong>One-of-One. Hand-Bleached. Personally Signed.</strong></p>\n<p><strong>Blood Orbit</strong> is the loop - the cycle you keep running through until you finally break out of it for good. This is piece #004 of the Survivor Collection: eight garments hand-bleached and signed by Army veteran Elvin Torres Sr., built as collector art rather than merchandise.</p>\n<p>This is a true one-of-one. No reprints, no restocks. When it sells, this part of the story is gone for good.</p>\n<p>You're not buying inventory. You're buying proof - a wearable answer to anyone who wonders what you've been through and how you're still standing. When you put this on, you're not explaining your story. You're wearing it.</p>\n<p><strong>Sizing:</strong> True to size on a heavyweight cotton cut. Check the size chart before you buy - once this leaves the shop, there's no exchange on a one-of-one.</p>\n<p><em>Not ready for the original? A signed <a href=\"/products/survivor-collection-founders-print-series-limited-edition-of-25\">Blood Orbit print</a> is available, limited to 25.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hsw365survivor_2_4438ef14-c60a-4c11-a916-98eaf5e5e4e0.jpg?v=1782140630",
+      "image_alt": "Survivor Collection Blood Orbit one-of-one hand-bleached streetwear tee, design #004",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46575832563873",
+          "title": "XL",
+          "sku": "HSW365-SURV-004-XL",
+          "price": "120.00",
+          "inventory_quantity": 1,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8563028787361",
+      "handle": "survivor-tee-stars-stripes-005",
+      "title": "HSW365 Founder's Edition — Survivor Collection #005 \"Stars & Stripes\"",
+      "description_html": "<p><strong>One-of-One. Hand-Bleached. Personally Signed.</strong></p><p><strong>Stars &amp; Stripes</strong> is a direct nod to service and sacrifice - what it means to survive in uniform and carry that weight home. This is piece #005 of the Survivor Collection: eight garments hand-bleached and signed by Army veteran Elvin Torres Sr., built as collector art rather than merchandise.</p><p>This is a true one-of-one. No reprints, no restocks. When it sells, this part of the story is gone for good.</p><p>You're not buying inventory. You're buying proof - a wearable answer to anyone who wonders what you've been through and how you're still standing. When you put this on, you're not explaining your story. You're wearing it.</p><p><strong>Sizing:</strong> True to size on a heavyweight cotton cut. Check the size chart before you buy - once this leaves the shop, there's no exchange on a one-of-one.</p><p><em>Not ready for the original? A signed <a href=\"/products/survivor-collection-founders-print-series-limited-edition-of-25\">Stars &amp; Stripes print</a> is available, limited to 25.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hsw365survivor_7.jpg?v=1782140730",
+      "image_alt": "Survivor Collection Stars and Stripes one-of-one hand-bleached streetwear tee, design #005",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46585457967265",
+          "title": "XL",
+          "sku": "HSW365-SURV-005-XL",
+          "price": "120.00",
+          "inventory_quantity": 1,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8565317009569",
+      "handle": "survivor-tee-blue-gold-fracture-006",
+      "title": "HSW365 Founder's Edition — Survivor Collection #006 \"Blue Gold Fracture\"",
+      "description_html": "<p><strong>One-of-One. Hand-Bleached. Personally Signed.</strong></p><p><strong>Blue Gold Fracture</strong> is the mend - the fracture beginning to heal into something stronger than it was before it broke. This is piece #006 of the Survivor Collection: eight garments hand-bleached and signed by Army veteran Elvin Torres Sr., built as collector art rather than merchandise.</p><p>This is a true one-of-one. No reprints, no restocks. When it sells, this part of the story is gone for good.</p><p>You're not buying inventory. You're buying proof - a wearable answer to anyone who wonders what you've been through and how you're still standing. When you put this on, you're not explaining your story. You're wearing it.</p><p><strong>Sizing:</strong> True to size on a heavyweight cotton cut. Check the size chart before you buy - once this leaves the shop, there's no exchange on a one-of-one.</p><p><em>Not ready for the original? A signed <a href=\"/products/survivor-collection-founders-print-series-limited-edition-of-25\">Blue Gold Fracture print</a> is available, limited to 25.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/1_cb0c0070-5898-40ec-b749-03ebaf597a37.png?v=1782150376",
+      "image_alt": "Survivor Collection one-of-one hand-bleached streetwear tee, design #006 blue and gold fracture pattern",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46585541230753",
+          "title": "XL",
+          "sku": "HSW365-SURV-006-XL",
+          "price": "120.00",
+          "inventory_quantity": 1,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8565349580961",
+      "handle": "survivor-tee-gold-starburst-007",
+      "title": "HSW365 Founder's Edition — Survivor Collection #007 \"Gold Starburst\"",
+      "description_html": "<p><strong>One-of-One. Hand-Bleached. Personally Signed.</strong></p><p><strong>Gold Starburst</strong> is the breakthrough - the moment surviving stops being the whole story and turns into something closer to thriving. This is piece #007 of the Survivor Collection: eight garments hand-bleached and signed by Army veteran Elvin Torres Sr., built as collector art rather than merchandise.</p><p>This is a true one-of-one. No reprints, no restocks. When it sells, this part of the story is gone for good.</p><p>You're not buying inventory. You're buying proof - a wearable answer to anyone who wonders what you've been through and how you're still standing. When you put this on, you're not explaining your story. You're wearing it.</p><p><strong>Sizing:</strong> True to size on a heavyweight cotton cut. Check the size chart before you buy - once this leaves the shop, there's no exchange on a one-of-one.</p><p><em>Not ready for the original? A signed <a href=\"/products/survivor-collection-founders-print-series-limited-edition-of-25\">Gold Starburst print</a> is available, limited to 25.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/1_f3eac908-2226-4941-b987-6a7a766f4720.png?v=1782151339",
+      "image_alt": "Survivor Collection one-of-one hand-bleached streetwear tee, design #007 gold starburst print",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46585629442209",
+          "title": "XL",
+          "sku": "HSW365-SURV-007-XL",
+          "price": "120.00",
+          "inventory_quantity": 1,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8565349712033",
+      "handle": "survivor-tee-custom-design-008",
+      "title": "HSW365 Founder's Edition - Survivor Collection #008 \"Founder's Mark\"",
+      "description_html": "<p><strong>One-of-One. Hand-Bleached. Personally Signed.</strong></p><p><strong>Founder's Mark</strong> is the closing chapter - the final piece in the collection, carrying the full weight of the story from Crimson Fracture to here. This is piece #008 of the Survivor Collection: eight garments hand-bleached and signed by Army veteran Elvin Torres Sr., built as collector art rather than merchandise.</p><p>This is a true one-of-one. No reprints, no restocks. When it sells, this part of the story is gone for good.</p><p>You're not buying inventory. You're buying proof - a wearable answer to anyone who wonders what you've been through and how you're still standing. When you put this on, you're not explaining your story. You're wearing it.</p><p><strong>Sizing:</strong> True to size on a heavyweight cotton cut. Check the size chart before you buy - once this leaves the shop, there's no exchange on a one-of-one.</p><p><em>Not ready for the original? A signed <a href=\"/products/survivor-collection-founders-print-series-limited-edition-of-25\">Founder's Mark print</a> is available, limited to 25.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/3_527156eb-c5c0-43f8-81a2-c39a1ceffc31.png?v=1782151435",
+      "image_alt": "Founder's Mark print",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46585629704353",
+          "title": "XL",
+          "sku": "HSW365-SURV-008-XL",
+          "price": "120.00",
+          "inventory_quantity": 1,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8573965303969",
+      "handle": "faith-over-fear",
+      "title": "FAITH OVER FEAR",
+      "description_html": "<p><strong>Start here. This is where every Survivor begins.</strong></p><p>Before the Survivor Collection, before the movement - there was one decision: faith over fear. This tee is the starting line. Everyone in the movement owns one.</p><p>It's not a discount item. It's the entry point into everything HSW365 stands for - built by a U.S. Army veteran who turned his lowest point into a brand about turning negative into positive.</p><p><strong>The Details:</strong></p><ul>\n<li>Gildan G200 Adult Ultra Cotton, 6 oz. - 100% USA cotton</li>\n<li>Heathers and Safety colors are 50/50; Ash Grey is 99/1; Sport Grey &amp; Antiques are 90/10</li>\n<li>Made with sustainably and fairly grown USA cotton</li>\n<li>Tear-away label, classic width rib collar, double-needle sleeve and bottom hem</li>\n<li>Taped neck and shoulders for durability</li>\n</ul><p><strong>Sizing:</strong> True to size, classic fit. Sizes S-2XL available.</p><p><em>Ready for the next step? Explore the one-of-one <a href=\"/collections/survivor-collection\">Survivor Collection</a> - each existing in exactly one copy.</em></p>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/ninjapod_13126820_f_G200_51_f.jpg?v=1782871651",
+      "image_alt": "BLACK - G200 - FRONT",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46629819613345",
+          "title": "BLACK / S / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g648mr1fpq0y",
+          "price": "21.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46629819646113",
+          "title": "BLACK / M / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g648mr1fpq0z",
+          "price": "21.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46629819678881",
+          "title": "BLACK / L / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g648mr1fpq10",
+          "price": "21.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46629819711649",
+          "title": "BLACK / XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g648mr1fpq11",
+          "price": "21.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46629819744417",
+          "title": "BLACK / 2XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g648mr1fpq12",
+          "price": "21.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46629819777185",
+          "title": "BLACK / 3XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g648mr1fpq13",
+          "price": "21.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46629819809953",
+          "title": "BLACK / 4XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g648mr1fpq14",
+          "price": "21.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "4XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46629819842721",
+          "title": "BLACK / 5XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g648mr1fpq15",
+          "price": "21.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "5XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8582199967905",
+      "handle": "survivor-collection-founders-print-series-limited-edition-of-25",
+      "title": "Survivor Collection — Founder's Print Series (Limited Edition of 25)",
+      "description_html": "<p><strong>The Survivor Collection story, now within reach.</strong></p><p>Each Founder's Print is a museum-quality giclee reproduction of an original one-of-one Survivor Collection piece - the same hand-bleached artwork, the same story, at a fraction of the price of the original tee.</p><p><strong>Limited to 25 signed and numbered prints per design.</strong> Once a design sells out, it's retired - no reprints, ever.</p><p>This is for people who don't just wear the mission. They display it. Hang it where you'll see it on the days you need reminding of what you already survived.</p><p>Choose your design below. Each ships signed by Elvin Torres Sr., founder of HSW365.</p><p><em>Own the original one-of-one instead? See the full <a href=\"/collections/survivor-collection\">Survivor Collection</a> - 8 pieces, each existing in exactly one copy.</em></p>",
+      "product_type": "Art Print",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/3_527156eb-c5c0-43f8-81a2-c39a1ceffc31.png?v=1782151435",
+      "image_alt": "Founder's Mark print",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46662923419809",
+          "title": "Founder's Mark",
+          "sku": null,
+          "price": "65.00",
+          "inventory_quantity": 25,
+          "options": [
+            {
+              "name": "Design",
+              "value": "Founder's Mark"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46662923452577",
+          "title": "Crimson Fracture",
+          "sku": null,
+          "price": "65.00",
+          "inventory_quantity": 25,
+          "options": [
+            {
+              "name": "Design",
+              "value": "Crimson Fracture"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46662923485345",
+          "title": "Gold Rush",
+          "sku": null,
+          "price": "65.00",
+          "inventory_quantity": 25,
+          "options": [
+            {
+              "name": "Design",
+              "value": "Gold Rush"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46662923518113",
+          "title": "Midnight Shrapnel",
+          "sku": null,
+          "price": "65.00",
+          "inventory_quantity": 25,
+          "options": [
+            {
+              "name": "Design",
+              "value": "Midnight Shrapnel"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46662923550881",
+          "title": "Blood Orbit",
+          "sku": null,
+          "price": "65.00",
+          "inventory_quantity": 25,
+          "options": [
+            {
+              "name": "Design",
+              "value": "Blood Orbit"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46662923583649",
+          "title": "Stars & Stripes",
+          "sku": null,
+          "price": "65.00",
+          "inventory_quantity": 25,
+          "options": [
+            {
+              "name": "Design",
+              "value": "Stars & Stripes"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46662923616417",
+          "title": "Blue Gold Fracture",
+          "sku": null,
+          "price": "65.00",
+          "inventory_quantity": 25,
+          "options": [
+            {
+              "name": "Design",
+              "value": "Blue Gold Fracture"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46662923649185",
+          "title": "Gold Starburst",
+          "sku": null,
+          "price": "65.00",
+          "inventory_quantity": 25,
+          "options": [
+            {
+              "name": "Design",
+              "value": "Gold Starburst"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8631829037217",
+      "handle": "king-james-tees",
+      "title": "THE KING IS HERE",
+      "description_html": "<p><strong>Product: Anvil 980 Lightweight T-Shirt</strong></p><ul>\n<li>4.5 oz.,</li>\n<li>100% preshrunk combed ringspun cotton; 30 singles</li>\n<li>Heather Grey: 90% cotton, 10% polyester</li>\n<li>Heather colors and Neon colors: 65% polyester, 35% cotton</li>\n<li>Graphite Heather: 50% cotton, 50% polyester</li>\n<li>Semi-fitted</li>\n<li>High stitch density for smoother printing surface</li>\n<li>5/8\" rib seamed collar</li>\n<li>Shoulder-to shoulder tape</li>\n<li>Tubular construction; semi-fitted</li>\n<li>Double-needle sleeve and bottom hem; Oeko-Tex® Standard 100 Certified</li>\n<li>Tear away label</li>\n</ul><table id=\"sizechart\" style=\"width:100%; border-collapse: collapse;\" border=\"1\"><tbody>\n<tr>\n<th style=\"padding: 8px; text-align: left;\">Size</th>\n<th style=\"padding: 8px; text-align: left;\">Body length</th>\n<th style=\"padding: 8px; text-align: left;\">Body width</th>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">XS</td>\n<td style=\"padding: 8px; text-align: left;\">27\"</td>\n<td style=\"padding: 8px; text-align: left;\">16\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">S</td>\n<td style=\"padding: 8px; text-align: left;\">null</td>\n<td style=\"padding: 8px; text-align: left;\">18\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">M</td>\n<td style=\"padding: 8px; text-align: left;\">null</td>\n<td style=\"padding: 8px; text-align: left;\">20\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">L</td>\n<td style=\"padding: 8px; text-align: left;\">null</td>\n<td style=\"padding: 8px; text-align: left;\">22\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">XL</td>\n<td style=\"padding: 8px; text-align: left;\">null</td>\n<td style=\"padding: 8px; text-align: left;\">24\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">2XL</td>\n<td style=\"padding: 8px; text-align: left;\">null</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">3XL</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n</tr>\n</tbody></table>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/ninjapod_13295737_f_980_51_f_220206c6-af34-4d6d-8511-6e83d98d1645.jpg?v=1785351550",
+      "image_alt": "BLACK - 980 - FRONT",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46776784617633",
+          "title": "BLACK / XS / Anvil 980 Lightweight T-Shirt",
+          "sku": "19g649ms5e51tb",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "XS"
+            },
+            {
+              "name": "Product",
+              "value": "Anvil 980 Lightweight T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46776784650401",
+          "title": "BLACK / S / Anvil 980 Lightweight T-Shirt",
+          "sku": "19g649ms5e51tc",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Product",
+              "value": "Anvil 980 Lightweight T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46776784683169",
+          "title": "BLACK / M / Anvil 980 Lightweight T-Shirt",
+          "sku": "19g649ms5e51td",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Product",
+              "value": "Anvil 980 Lightweight T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46776784715937",
+          "title": "BLACK / L / Anvil 980 Lightweight T-Shirt",
+          "sku": "19g649ms5e51te",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Product",
+              "value": "Anvil 980 Lightweight T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46776784748705",
+          "title": "BLACK / XL / Anvil 980 Lightweight T-Shirt",
+          "sku": "19g649ms5e51tf",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Product",
+              "value": "Anvil 980 Lightweight T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46776784781473",
+          "title": "BLACK / 2XL / Anvil 980 Lightweight T-Shirt",
+          "sku": "19g649ms5e51tg",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Product",
+              "value": "Anvil 980 Lightweight T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46776784814241",
+          "title": "BLACK / 3XL / Anvil 980 Lightweight T-Shirt",
+          "sku": "19g649ms5e51th",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            },
+            {
+              "name": "Product",
+              "value": "Anvil 980 Lightweight T-Shirt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8633665355937",
+      "handle": "the-king-dunks",
+      "title": "THE KING DUNKS",
+      "description_html": "<p><strong>Product: Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt</strong></p><ul>\n<li>6 oz. 100% USA cotton</li>\n<li>Heathers and Safety colors are 50/50</li>\n<li>Ash Grey is 99/1; Sport Grey &amp; Antiques are 90/10</li>\n<li>Made with sustainably and fairly grown USA cotton</li>\n<li>Tear away label</li>\n<li>Non-topstitched, classic width, rib collar</li>\n<li>Double-needle sleeve and bottom hem</li>\n<li>Seamless double-needle 7/8\" collar</li>\n<li>Taped neck and shoulders</li>\n<li>Safety Green is compliant with ANSI / ISEA 107 high-visibility standards</li>\n<li>Gildan's manufacturing process utilizes 45% renewable energy</li>\n</ul><table id=\"sizechart\" style=\"width:100%; border-collapse: collapse;\" border=\"1\"><tbody>\n<tr>\n<th style=\"padding: 8px; text-align: left;\">Size</th>\n<th style=\"padding: 8px; text-align: left;\">Body length</th>\n<th style=\"padding: 8px; text-align: left;\">Full body length</th>\n<th style=\"padding: 8px; text-align: left;\">Body width</th>\n<th style=\"padding: 8px; text-align: left;\">Sleeve length</th>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">S</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">18\"</td>\n<td style=\"padding: 8px; text-align: left;\">16.5\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">M</td>\n<td style=\"padding: 8px; text-align: left;\">29\"</td>\n<td style=\"padding: 8px; text-align: left;\">29\"</td>\n<td style=\"padding: 8px; text-align: left;\">20\"</td>\n<td style=\"padding: 8px; text-align: left;\">18\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">L</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">22\"</td>\n<td style=\"padding: 8px; text-align: left;\">19.5\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">XL</td>\n<td style=\"padding: 8px; text-align: left;\">31\"</td>\n<td style=\"padding: 8px; text-align: left;\">31\"</td>\n<td style=\"padding: 8px; text-align: left;\">24\"</td>\n<td style=\"padding: 8px; text-align: left;\">21\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">2XL</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n<td style=\"padding: 8px; text-align: left;\">22.5\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">3XL</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">24\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">4XL</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">25.25\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">5XL</td>\n<td style=\"padding: 8px; text-align: left;\">35\"</td>\n<td style=\"padding: 8px; text-align: left;\">35\"</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">26.5\"</td>\n</tr>\n</tbody></table>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/ninjapod_13300827_f_G200_51_f.jpg?v=1785360752",
+      "image_alt": "BLACK - G200 - FRONT",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780510666913",
+          "title": "BLACK / S / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6llcvf",
+          "price": "23.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780510699681",
+          "title": "BLACK / M / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6llcvg",
+          "price": "23.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780510732449",
+          "title": "BLACK / L / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6llcvh",
+          "price": "23.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780510765217",
+          "title": "BLACK / XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6llcvi",
+          "price": "23.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780510797985",
+          "title": "BLACK / 2XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6llcvj",
+          "price": "23.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780510830753",
+          "title": "BLACK / 3XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6llcvk",
+          "price": "23.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780510863521",
+          "title": "BLACK / 4XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6llcvl",
+          "price": "23.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "4XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780510896289",
+          "title": "BLACK / 5XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6llcvm",
+          "price": "23.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "5XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8633777193121",
+      "handle": "the-g-o-a-t",
+      "title": "THE G.O.A.T",
+      "description_html": "<p><strong>Product: Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt</strong></p><ul>\n<li>6 oz. 100% USA cotton</li>\n<li>Heathers and Safety colors are 50/50</li>\n<li>Ash Grey is 99/1; Sport Grey &amp; Antiques are 90/10</li>\n<li>Made with sustainably and fairly grown USA cotton</li>\n<li>Tear away label</li>\n<li>Non-topstitched, classic width, rib collar</li>\n<li>Double-needle sleeve and bottom hem</li>\n<li>Seamless double-needle 7/8\" collar</li>\n<li>Taped neck and shoulders</li>\n<li>Safety Green is compliant with ANSI / ISEA 107 high-visibility standards</li>\n<li>Gildan's manufacturing process utilizes 45% renewable energy</li>\n</ul><table id=\"sizechart\" style=\"width:100%; border-collapse: collapse;\" border=\"1\"><tbody>\n<tr>\n<th style=\"padding: 8px; text-align: left;\">Size</th>\n<th style=\"padding: 8px; text-align: left;\">Body length</th>\n<th style=\"padding: 8px; text-align: left;\">Full body length</th>\n<th style=\"padding: 8px; text-align: left;\">Body width</th>\n<th style=\"padding: 8px; text-align: left;\">Sleeve length</th>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">S</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">18\"</td>\n<td style=\"padding: 8px; text-align: left;\">16.5\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">M</td>\n<td style=\"padding: 8px; text-align: left;\">29\"</td>\n<td style=\"padding: 8px; text-align: left;\">29\"</td>\n<td style=\"padding: 8px; text-align: left;\">20\"</td>\n<td style=\"padding: 8px; text-align: left;\">18\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">L</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">22\"</td>\n<td style=\"padding: 8px; text-align: left;\">19.5\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">XL</td>\n<td style=\"padding: 8px; text-align: left;\">31\"</td>\n<td style=\"padding: 8px; text-align: left;\">31\"</td>\n<td style=\"padding: 8px; text-align: left;\">24\"</td>\n<td style=\"padding: 8px; text-align: left;\">21\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">2XL</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n<td style=\"padding: 8px; text-align: left;\">22.5\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">3XL</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">24\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">4XL</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">25.25\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">5XL</td>\n<td style=\"padding: 8px; text-align: left;\">35\"</td>\n<td style=\"padding: 8px; text-align: left;\">35\"</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">26.5\"</td>\n</tr>\n</tbody></table>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/ninjapod_13301070_f_G200_51_f.jpg?v=1785364730",
+      "image_alt": "BLACK - G200 - FRONT",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780641706145",
+          "title": "BLACK / S / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6n05ev",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780641738913",
+          "title": "BLACK / M / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6n05ew",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780641771681",
+          "title": "BLACK / L / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6n05ex",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780641804449",
+          "title": "BLACK / XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6n05ey",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780641837217",
+          "title": "BLACK / 2XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6n05ez",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780641869985",
+          "title": "BLACK / 3XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6n05f0",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780641902753",
+          "title": "BLACK / 4XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6n05f1",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "4XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46780641935521",
+          "title": "BLACK / 5XL / Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt",
+          "sku": "19g64ams6n05f2",
+          "price": "24.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "BLACK"
+            },
+            {
+              "name": "Size",
+              "value": "5XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G200 Adult Ultra Cotton 6 oz. T-Shirt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8638223515809",
+      "handle": "hsw365-camo-set",
+      "title": "HSW365 Camo Set (Tee + Shorts)",
+      "description_html": "<p>The <strong>HSW365 Camo Set</strong> — matching camo tee and shorts straight out of HOODSTARWORLD. The tee carries the WORLD wordmark with the HSW365 shield front and center; the shorts bring the DOPE drip graphic on the leg and the shield hit on the hip. Heavyweight camo, orange HSW365 branding, built for the ones who turn negative into positive.</p>\n<p><strong>Set includes:</strong></p>\n<ul>\n<li>HSW365 Camo Tee</li>\n<li>HSW365 Camo Shorts</li>\n</ul>\n<p>Available S–2XL. One price for the full fit.</p>",
+      "product_type": "Apparel Set",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/23EED786-2523-44E7-9D41-CE6512170BC0.jpg?v=1785461730",
+      "image_alt": "",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46791079526561",
+          "title": "L",
+          "sku": "HSW365-CAMOSET-L",
+          "price": "65.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8682708992161",
+      "handle": "neck-massager",
+      "title": "HSW365 SCULPT — LED Neck & Jawline Device",
+      "description_html": "<p><strong>Your neck ages first. Most routines skip it.</strong></p>\n<p>SCULPT is a cordless at-home device for the neck, jawline and face. It uses three-color LED light, warm heat and micro-vibration together in one curved head that follows your jaw. Use it for a few minutes a day with your serum or cream.</p>\n\n<h3>Three lights, one device</h3>\n<ul>\n<li>\n<strong>Red</strong>: targets dullness and the look of fine lines.</li>\n<li>\n<strong>Blue</strong>: for oily, congested skin and visible pores.</li>\n<li>\n<strong>Green</strong>: calms skin that looks red or uneven.</li>\n</ul>\n\n<h3>Heat plus vibration</h3>\n<p>A steady 45°C warm compress paired with high-frequency micro-vibration. It helps your skincare absorb, eases tension in the neck and gives the jawline a firmer feel after each session.</p>\n\n<h3>8 modes, multiple intensity levels</h3>\n<p>Cleanse, infuse, lift and soothe. Aim it at neck lines, smile lines and under the chin.</p>\n\n<h3>Built for the curve</h3>\n<p>The ergonomic head sits flush along the neck and jaw, including the spots your hands miss. One button runs it, so there's nothing to learn.</p>\n\n<h3>The routine</h3>\n<ol>\n<li>Apply your serum or neck cream.</li>\n<li>Pick a light and a mode.</li>\n<li>Glide upward from collarbone to jaw for a few minutes.</li>\n</ol>\n\n<h3>In the box</h3>\n<ul>\n<li>HSW365 SCULPT device</li>\n<li>USB charging cable</li>\n</ul>\n\n<p><em>For cosmetic use only. Not a medical device. Results vary by person. If you are pregnant, have a skin condition or light sensitivity, or use photosensitizing medication, ask your doctor before use.</em></p>\n\n<p><strong>HSW365. Turn Negative Into Positive.</strong></p>",
+      "product_type": "MASSAGER",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/ef2e4521-078c-4c5c-ba3a-33a11eda784e.jpg?v=1786567717",
+      "image_alt": "301ec355eebcf217cc422072239e58f7",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46872893784225",
+          "title": "Black",
+          "sku": "CJAM291642202BY",
+          "price": "21.99",
+          "inventory_quantity": 12998,
+          "options": [
+            {
+              "name": "Colour",
+              "value": "Black"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46872893816993",
+          "title": "White",
+          "sku": "CJAM291642201AZ",
+          "price": "21.99",
+          "inventory_quantity": 10952,
+          "options": [
+            {
+              "name": "Colour",
+              "value": "White"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8702848598177",
+      "handle": "the-modern-dog-the-positive-training-blueprint-2026-edition",
+      "title": "THE MODERN DOG — The Positive-Training Blueprint (2026 Edition)",
+      "description_html": "<p><strong>Raise a calm, confident, obedient dog in 21 days — with humane, science-backed training. No yelling, no gadgets, no guesswork.</strong></p>\n<p>THE MODERN DOG is a premium 55-page illustrated digital guide that turns confusing dog behavior into a simple, repeatable system any owner can follow. Whether you just brought home a puppy, adopted a rescue, or you're finally fixing the habits of an older dog — this blueprint meets you where you are.</p>\n<p><strong>What's inside:</strong></p>\n<ul>\n<li>How dogs actually learn — and how to use it (reward-based / positive reinforcement)</li>\n<li>Reading your dog's body language and moods</li>\n<li>The core commands: name &amp; focus, sit, down, stand, stay, recall, place, loose-leash walking</li>\n<li>Life skills: crate training, potty training, socialization, problem behaviors</li>\n<li>The complete <strong>21-Day Blueprint</strong> — an exact day-by-day schedule</li>\n<li>Troubleshooting FAQ + a Quick-Reference Cheat Sheet you can keep on your phone</li>\n<li>Clear illustrations, hand-signal diagrams, and step-by-step visuals throughout</li>\n</ul>\n<p>Just a few minutes a day. Built on kindness, consistency, and real behavioral science.</p>\n<p><strong>Format:</strong> Instant digital download (PDF). Read on any phone, tablet, or computer.</p>\n<p><em>Published by HSW365 Media — Turn Negative Into Positive.</em></p>",
+      "product_type": "Ebook",
+      "category": "books",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/IMG-6086.jpg?v=1787692869",
+      "image_alt": "",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46928093577377",
+          "title": "Default Title",
+          "sku": "HSW365-MODERNDOG-V01",
+          "price": "24.99",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8705498906785",
+      "handle": "cybersecurity-for-everybody-the-no-bs-beginners-guide-to-protecting-your-phone-computer-money-business-digital-life",
+      "title": "Cybersecurity for Everyone: A Practical, Simple Guide to Staying Safe in the Digital Age",
+      "description_html": "<p><strong>Cybersecurity doesn't have to be confusing, expensive, or reserved for IT pros.</strong></p>\n<p><em>Cybersecurity for Everyone</em> is a plain-English, no-jargon guide to protecting the things that actually matter — your phone, computer, money, accounts, photos, business, and peace of mind.</p>\n<p><strong>Inside you'll learn how to:</strong></p>\n<ul>\n<li>Spot and shut down phishing before you click</li>\n<li>Kill password reuse and lock down every important account</li>\n<li>Set up two-factor authentication the right way</li>\n<li>Secure your phone, computer, and social media</li>\n<li>Protect your money from scams — including new AI-powered ones</li>\n<li>Recover fast from a hack or account takeover</li>\n<li>Build a realistic personal cybersecurity plan</li>\n</ul>\n<p>Every chapter includes real-world scenarios, red flags, do-this / don't-do-this comparisons, Quick Checks, and immediate action steps — plus a <strong>30-Day Cybersecurity Challenge</strong> and a quick-reference cheat sheet.</p>\n<p><strong>No scare tactics. No jargon parade. Just practical defenses you can start using today.</strong></p>\n<p><em>Instant digital download (PDF).</em></p>",
+      "product_type": "Ebook",
+      "category": "books",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/cybersecurity-for-everyone-cover.jpg?v=1787871662",
+      "image_alt": "Cybersecurity for Everyone ebook cover",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46934426255521",
+          "title": "Default Title",
+          "sku": "HSW365-CYBER-V01",
+          "price": "19.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8716161712289",
+      "handle": "hoodstarworld-hoodies",
+      "title": "HOODSTARWORLD HOODIES",
+      "description_html": "<p><strong>Product: Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood</strong></p><ul>\n<li>8 oz.,</li>\n<li>50% cotton 50% polyester blend</li>\n<li>Heather Sport colors: 60% polyester, 40% cotton</li>\n<li>Pill-resistant air jet yarn</li>\n<li>Classic fit</li>\n<li>Double-lined hood with color-matched drawcord</li>\n<li>1 x 1 rib with spandex for enhanced stretch and recovery</li>\n<li>Pouch pocket</li>\n<li>Tear away label</li>\n</ul><table id=\"sizechart\" style=\"width:100%; border-collapse: collapse;\" border=\"1\"><tbody>\n<tr>\n<th style=\"padding: 8px; text-align: left;\">Size</th>\n<th style=\"padding: 8px; text-align: left;\">Body length</th>\n<th style=\"padding: 8px; text-align: left;\">Full body length</th>\n<th style=\"padding: 8px; text-align: left;\">Body width</th>\n<th style=\"padding: 8px; text-align: left;\">Sleeve length</th>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">XS</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n<td style=\"padding: 8px; text-align: left;\">18\"</td>\n<td style=\"padding: 8px; text-align: left;\">32 1/2\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">S</td>\n<td style=\"padding: 8px; text-align: left;\">27\"</td>\n<td style=\"padding: 8px; text-align: left;\">27\"</td>\n<td style=\"padding: 8px; text-align: left;\">20\"</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">M</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">22\"</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">L</td>\n<td style=\"padding: 8px; text-align: left;\">29\"</td>\n<td style=\"padding: 8px; text-align: left;\">29\"</td>\n<td style=\"padding: 8px; text-align: left;\">24\"</td>\n<td style=\"padding: 8px; text-align: left;\">35\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">XL</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n<td style=\"padding: 8px; text-align: left;\">36\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">2XL</td>\n<td style=\"padding: 8px; text-align: left;\">31\"</td>\n<td style=\"padding: 8px; text-align: left;\">31\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">37\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">3XL</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">38\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">4XL</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">39\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">5XL</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n<td style=\"padding: 8px; text-align: left;\">40\"</td>\n</tr>\n</tbody></table>",
+      "product_type": "Apparel",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/ninjapod_13556375_f_G185_51_f_0b0026d4-8791-4587-b859-fbc9399f010b.jpg?v=1789168001",
+      "image_alt": "BLACK - G185 - FRONT",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612196001",
+          "title": "Black / XS / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic105",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "XS"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612228769",
+          "title": "Black / S / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic107",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612261537",
+          "title": "Black / M / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic10a",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612294305",
+          "title": "Black / L / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic10c",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612327073",
+          "title": "Black / XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic10d",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612359841",
+          "title": "Black / 2XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic10m",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612392609",
+          "title": "Black / 3XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic10o",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612425377",
+          "title": "Black / 4XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic10q",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "4XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973612458145",
+          "title": "Black / 5XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "19g62zmtoic10s",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "5XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973618946209",
+          "title": "Navy / XS / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijeca",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "XS"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973618978977",
+          "title": "Navy / S / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecb",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619011745",
+          "title": "Navy / M / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecc",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619044513",
+          "title": "Navy / L / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecd",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619077281",
+          "title": "Navy / XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijece",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619110049",
+          "title": "Navy / 2XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecf",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619142817",
+          "title": "Navy / 3XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecg",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619175585",
+          "title": "Navy / 4XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijech",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "4XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619208353",
+          "title": "Navy / 5XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijeci",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Navy"
+            },
+            {
+              "name": "Size",
+              "value": "5XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619241121",
+          "title": "Azalea / S / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecj",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Azalea"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619273889",
+          "title": "Azalea / M / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijeck",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Azalea"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619306657",
+          "title": "Azalea / L / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecl",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Azalea"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619339425",
+          "title": "Azalea / XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecm",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Azalea"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619372193",
+          "title": "Azalea / 2XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecn",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Azalea"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619404961",
+          "title": "Azalea / 3XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijeco",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Azalea"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619437729",
+          "title": "Antique Cherry Red / S / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecp",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Antique Cherry Red"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619470497",
+          "title": "Antique Cherry Red / M / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecq",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Antique Cherry Red"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619503265",
+          "title": "Antique Cherry Red / L / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecr",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Antique Cherry Red"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619536033",
+          "title": "Antique Cherry Red / XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecs",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Antique Cherry Red"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619568801",
+          "title": "Antique Cherry Red / 2XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoiject",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Antique Cherry Red"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619601569",
+          "title": "Antique Cherry Red / 3XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecu",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Antique Cherry Red"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619634337",
+          "title": "Antique Cherry Red / 4XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecv",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Antique Cherry Red"
+            },
+            {
+              "name": "Size",
+              "value": "4XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/46973619667105",
+          "title": "Antique Cherry Red / 5XL / Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood",
+          "sku": "2mtoijecw",
+          "price": "40.00",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Antique Cherry Red"
+            },
+            {
+              "name": "Size",
+              "value": "5XL"
+            },
+            {
+              "name": "Product",
+              "value": "Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8719841788065",
+      "handle": "solo-empire-the-one-man-founder-system",
+      "title": "HSW365 SOLO EMPIRE — The One-Man Founder System",
+      "description_html": "<p><strong>The flagship of the HSW365 Media Build Series.</strong> The complete operating system for building a real software, media, and product empire — solo, from a single Windows PC, using AI as the team you never hired.</p>\n<p>Written by U.S. Army veteran and HSW365 founder Elvin Torres Sr. — the exact system behind 15+ shipped apps, SaaS platforms, published books, and a streetwear line, built with no co-founder, no funding, and no permission. Turn Negative Into Positive, operationalized into a machine you can run.</p>\n<h3>What's inside</h3>\n<ul>\n<li>\n<strong>The Solo Empire Doctrine</strong> — the mindset that turns being alone and under-resourced into your unfair advantage.</li>\n<li>\n<strong>The One-Man Stack</strong> — the exact tool roles that replace an entire team, cheap and boring on purpose.</li>\n<li>\n<strong>The Ship Loop</strong> — idea to live, payable product in days, not quarters.</li>\n<li>\n<strong>The Portfolio Play</strong> — stop betting on one idea; build the ladder that multiplies your shots.</li>\n<li>\n<strong>The Money Machine</strong> — the honest math of infinite digital inventory and the daily distribution engine that moves it.</li>\n<li>\n<strong>Systems &amp; Memory</strong> — automate the boring, document the repeatable, remember everything.</li>\n<li>\n<strong>The 90-Day Solo Empire Plan</strong> — a week-by-week run from zero to a live portfolio with real sales.</li>\n</ul>\n<h3>What you get</h3>\n<p>A 12-page dark-premium flagship playbook (instant digital download, PDF). Single-user license. Lifetime access to your copy.</p>\n<p><em>No income is promised or guaranteed. This is an education product, not financial advice — results depend on the work you put in.</em></p>",
+      "product_type": "Digital Course",
+      "category": "digital",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/FullSizeRender_b40eb575-6b97-4fe1-96f4-6e93b8253198.jpg?v=1789085695",
+      "image_alt": "",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47080904655009",
+          "title": "Default Title",
+          "sku": "HSW365-SOLOEMPIRE-V01",
+          "price": "97.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8725894529185",
+      "handle": "calltwin-24-7-virtual-assitant",
+      "title": "CallTwin 24/7 AI Virtual Receptionist",
+      "description_html": "<h2>Stop missing calls. Stop losing jobs.</h2>\n<p>CallTwin answers your business line 24/7/365 with a live-sounding AI receptionist, day or night, holidays included. It never calls out sick and never puts a customer on hold.</p>\n<h3>What CallTwin does</h3>\n<ul>\n<li>Answers every call, around the clock</li>\n<li>Qualifies leads and captures caller details</li>\n<li>Books appointments automatically</li>\n<li>Texts you the details instantly</li>\n</ul>\n<h3>Add-on: HSW365 AI Estimate</h3>\n<p>Built for contractors and service pros. Call comes in, AI analyzes the job, you set the price, a professional proposal goes out, the client e-signs, the deposit is collected, and follow-up runs automatically. Quote faster, close more.<br><strong>14 days FREE, then $49/month.</strong></p>\n<h3>Modern Business Web Apps</h3>\n<p>Your website, your AI receptionist, and your estimates in ONE custom web app. No templates, no juggling five tools. DM @hsw365media for a quote.</p>\n<h3>Pricing</h3>\n<ul>\n<li>\n<strong>$500 one-time setup</strong> (paid today)</li>\n<li>\n<strong>14 days FREE</strong> start once setup is paid</li>\n<li><strong>Then $99/month</strong></li>\n</ul>\n<h3>Get it today</h3>\n<ol>\n<li>Purchase setup here</li>\n<li>Your 14 free days start immediately</li>\n<li>Your line goes live, and you never miss another customer</li>\n</ol>\n<p>Hear it yourself: call <strong>(856) 594-3303</strong><br>Sign up online: <a href=\"https://hsw365.github.io/calltwin/\">hsw365.github.io/calltwin</a><br>Questions: hsw365media@gmail.com | @hsw365media on TikTok &amp; Instagram</p>\n<p><em>HSW365 Media — Turn Negative Into Positive.</em></p>",
+      "product_type": "CallTwin Plan",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/IMG_6737.jpg?v=1789304382",
+      "image_alt": "",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47266633056417",
+          "title": "Default Title",
+          "sku": null,
+          "price": "500.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8726156673185",
+      "handle": "calltwin-license-only",
+      "title": "CallTwin — License Only",
+      "description_html": "<p><strong>$500 one-time.</strong> Own your CallTwin 24/7 AI receptionist outright.</p><p>Includes the CallTwin software license and initial setup by HSW365. After launch, you run and pay for your own hosting, phone number and AI services. Best for businesses with their own tech person.</p><h3>Every CallTwin plan includes the full platform</h3><ul>\n<li>\n<strong>Answer &amp; Qualify</strong> — Every call gets answered. Every caller gets a real conversation.</li>\n<li>\n<strong>Capture Every Lead</strong> — A missed call is money walking out the door. Capture it.</li>\n<li>\n<strong>Route &amp; Escalate</strong> — The right call to the right place. Emergencies first.</li>\n<li>\n<strong>SMS Follow-Up</strong> — The follow-up is where the money is. Stay on it.</li>\n<li>\n<strong>24/7 Autopilot</strong> — Set it once. It runs 365 days a year without you.</li>\n<li>\n<strong>Lead Hunter</strong> — Wake up to fresh leads every morning. Automatically.</li>\n<li>\n<strong>Voice &amp; Pitch Script</strong> — Your business. Your voice. Your words.</li>\n<li>\n<strong>Setup &amp; Go-Live</strong> — HSW365 builds it. You keep your focus on the business.</li>\n</ul><p>Keep your existing business number. HSW365 connects it through call forwarding, configures the AI, and runs live test calls before you go live.</p><p><strong>Questions or setup:</strong> hsw365media@gmail.com  |  Live demo: calltwin.onrender.com</p>",
+      "product_type": "CallTwin Plan",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_023829_e9c15341-49fe-4f85-9b50-ef77d0882061.png?v=1790304507",
+      "image_alt": "CallTwin Setup and Go-Live",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47287508435105",
+          "title": "Default",
+          "sku": "CALLTWIN-LICENSE",
+          "price": "500.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8726156738721",
+      "handle": "calltwin-care",
+      "title": "CallTwin Care",
+      "description_html": "<p><strong>$500 setup + $49/mo.</strong> CallTwin, hosted and maintained by HSW365.</p><p>We host it, keep it running, ship updates and give you basic support. You just take the leads. This listing covers the $500 setup; the $49/mo service is billed separately.</p><h3>Every CallTwin plan includes the full platform</h3><ul>\n<li>\n<strong>Answer &amp; Qualify</strong> — Every call gets answered. Every caller gets a real conversation.</li>\n<li>\n<strong>Capture Every Lead</strong> — A missed call is money walking out the door. Capture it.</li>\n<li>\n<strong>Route &amp; Escalate</strong> — The right call to the right place. Emergencies first.</li>\n<li>\n<strong>SMS Follow-Up</strong> — The follow-up is where the money is. Stay on it.</li>\n<li>\n<strong>24/7 Autopilot</strong> — Set it once. It runs 365 days a year without you.</li>\n<li>\n<strong>Lead Hunter</strong> — Wake up to fresh leads every morning. Automatically.</li>\n<li>\n<strong>Voice &amp; Pitch Script</strong> — Your business. Your voice. Your words.</li>\n<li>\n<strong>Setup &amp; Go-Live</strong> — HSW365 builds it. You keep your focus on the business.</li>\n</ul><p>Keep your existing business number. HSW365 connects it through call forwarding, configures the AI, and runs live test calls before you go live.</p><p><strong>Questions or setup:</strong> hsw365media@gmail.com  |  Live demo: calltwin.onrender.com</p>",
+      "product_type": "CallTwin Plan",
+      "category": "merch",
+      "shopify_status": "UNLISTED",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_023829_142f6ebe-509d-477c-ad0a-eae2d261d049.png?v=1790304513",
+      "image_alt": "CallTwin 24/7 Autopilot",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47287516627105",
+          "title": "Default",
+          "sku": "CALLTWIN-CARE",
+          "price": "500.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8726156837025",
+      "handle": "calltwin-pro",
+      "title": "CallTwin Pro",
+      "description_html": "<p><strong>$500 setup + $99/mo.</strong> The most popular CallTwin plan.</p><p>Everything in Care, plus priority support, call-flow updates when your business changes, and ongoing monitoring so your receptionist stays sharp. This listing covers the $500 setup; the $99/mo service is billed separately.</p><h3>Every CallTwin plan includes the full platform</h3><ul>\n<li>\n<strong>Answer &amp; Qualify</strong> — Every call gets answered. Every caller gets a real conversation.</li>\n<li>\n<strong>Capture Every Lead</strong> — A missed call is money walking out the door. Capture it.</li>\n<li>\n<strong>Route &amp; Escalate</strong> — The right call to the right place. Emergencies first.</li>\n<li>\n<strong>SMS Follow-Up</strong> — The follow-up is where the money is. Stay on it.</li>\n<li>\n<strong>24/7 Autopilot</strong> — Set it once. It runs 365 days a year without you.</li>\n<li>\n<strong>Lead Hunter</strong> — Wake up to fresh leads every morning. Automatically.</li>\n<li>\n<strong>Voice &amp; Pitch Script</strong> — Your business. Your voice. Your words.</li>\n<li>\n<strong>Setup &amp; Go-Live</strong> — HSW365 builds it. You keep your focus on the business.</li>\n</ul><p>Keep your existing business number. HSW365 connects it through call forwarding, configures the AI, and runs live test calls before you go live.</p><p><strong>Questions or setup:</strong> hsw365media@gmail.com  |  Live demo: calltwin.onrender.com</p>",
+      "product_type": "CallTwin Plan",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_023847_b2b6dcea-db47-4c58-bf5f-14558d907376.png?v=1790304520",
+      "image_alt": "CallTwin Route and Escalate",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47287524851873",
+          "title": "Default",
+          "sku": "CALLTWIN-PRO",
+          "price": "500.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8726156935329",
+      "handle": "calltwin-managed-business",
+      "title": "CallTwin — Managed Business",
+      "description_html": "<p><strong>$500 setup + $199/mo.</strong> CallTwin, fully managed by HSW365.</p><p>Hands-off. We manage it ongoing, make custom changes when you need them, and give you advanced support. Built for busy owners, multiple locations, or businesses running outbound campaigns and Lead Hunter. This listing covers the $500 setup; the $199/mo service is billed separately.</p><h3>Every CallTwin plan includes the full platform</h3><ul>\n<li>\n<strong>Answer &amp; Qualify</strong> — Every call gets answered. Every caller gets a real conversation.</li>\n<li>\n<strong>Capture Every Lead</strong> — A missed call is money walking out the door. Capture it.</li>\n<li>\n<strong>Route &amp; Escalate</strong> — The right call to the right place. Emergencies first.</li>\n<li>\n<strong>SMS Follow-Up</strong> — The follow-up is where the money is. Stay on it.</li>\n<li>\n<strong>24/7 Autopilot</strong> — Set it once. It runs 365 days a year without you.</li>\n<li>\n<strong>Lead Hunter</strong> — Wake up to fresh leads every morning. Automatically.</li>\n<li>\n<strong>Voice &amp; Pitch Script</strong> — Your business. Your voice. Your words.</li>\n<li>\n<strong>Setup &amp; Go-Live</strong> — HSW365 builds it. You keep your focus on the business.</li>\n</ul><p>Keep your existing business number. HSW365 connects it through call forwarding, configures the AI, and runs live test calls before you go live.</p><p><strong>Questions or setup:</strong> hsw365media@gmail.com  |  Live demo: calltwin.onrender.com</p>",
+      "product_type": "CallTwin Plan",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_023829_4f709935-21a3-4460-96b4-183f67c5eb15.png?v=1790304527",
+      "image_alt": "CallTwin Lead Hunter",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47287533109409",
+          "title": "Default",
+          "sku": "CALLTWIN-MANAGED",
+          "price": "500.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8751680880801",
+      "handle": "hoodstar365-brand-partnership-starter-sponsorship",
+      "title": "HSW365 Brand Partnership — Starter Sponsorship",
+      "description_html": "<p><strong>Put your brand in front of the HOODSTAR365 audience.</strong></p><p>Partner with Elvin Torres Sr. (Hoodstar365): U.S. Army veteran, published author, recording artist, motivational speaker and founder of HSW365 Media. Sponsorship reaches the HOODSTAR365 live streams, the Respect Da Game podcast, \"The Journey Continues – Inspired to Inspire\" tour, HSW365 streetwear drops and the HSW365 app family.</p><h3>Starter sponsorship includes</h3><ul>\n<li>Brand mention and shoutout on HOODSTAR365 live streams</li>\n<li>Placement on the Respect Da Game podcast</li>\n<li>Social posts across HOODSTAR365 channels</li>\n<li>Custom package options after purchase</li>\n</ul><p>Brand partnerships start at $1,000. Bigger packages (tour stops, product integrations, app placements) are quoted after a call.</p><p><strong>Booking:</strong> book@hoodstar365.com  |  hsw365media@gmail.com  |  (856) 796-8081</p><p><strong>Turn Negative Into Positive.</strong></p>",
+      "product_type": "Brand Partnership",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_023829_fd0e96e1-9336-4f1c-809d-a4f199ff3fb8.png?v=1790345936",
+      "image_alt": "HOODSTAR365 brand partnership",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47929077858465",
+          "title": "Starter Sponsorship",
+          "sku": "HS365-BRAND-STARTER",
+          "price": "1000.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Starter Sponsorship"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8751681962145",
+      "handle": "hoodstar365-live-virtual-performance-ticket",
+      "title": "HSW365 Live — Virtual Performance Ticket",
+      "description_html": "<p><strong>THE HOODSTAR365 Live Experience, streamed.</strong></p><p>A live virtual performance from Hoodstar365: new music, stories from \"The Journey Continues – Inspired to Inspire\" tour, and live Q&amp;A with the fans. Streamed on twitch.tv/hoodstar365.</p><h3>Your ticket includes</h3><ul>\n<li>Access to the live performance stream</li>\n<li>Live Q&amp;A with Hoodstar365</li>\n<li>Shoutout on stream for ticket holders</li>\n</ul><p>Show date and access details are emailed after purchase.</p><p><strong>Questions:</strong> book@hoodstar365.com</p><p><strong>Turn Negative Into Positive.</strong></p>",
+      "product_type": "Event Ticket",
+      "category": "merch",
+      "shopify_status": "DRAFT",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_023829_b47b933e-d623-4b3a-a902-0d9742a9756f.png?v=1790345972",
+      "image_alt": "HOODSTAR365 Live performance",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47929078939809",
+          "title": "General Admission",
+          "sku": "HS365-LIVE-TIX",
+          "price": "10.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "General Admission"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8751682191521",
+      "handle": "klipit-streamer-clipping-subscription",
+      "title": "Klipit — Streamer Clipping Subscription",
+      "description_html": "<p><strong>Paste a stream link. Get your best moments as ready-to-post clips.</strong></p><p>Klipit takes your YouTube, Twitch or Kick stream or VOD, finds the best moments automatically, and cuts them into downloadable clips in wide and vertical formats. Post them anywhere.</p><h3>How it works</h3><ul>\n<li>Paste a stream or VOD link</li>\n<li>Klipit finds the best moments and cuts the clips</li>\n<li>Download in wide and vertical formats and post</li>\n</ul><h3>Plans</h3><ul>\n<li>\n<strong>Starter</strong>, $20/mo: up to 3 clips per stream, streams up to 30 minutes, 720p</li>\n<li>\n<strong>Pro</strong>, $45/mo: up to 15 clips per stream, streams up to 2 hours, 1080p, no watermark, captions</li>\n<li>\n<strong>Elite</strong>, $99/mo: up to 40 clips per stream, streams up to 8 hours, 1080p, no watermark, captions</li>\n</ul><p>Checkout starts you on Starter. Move up to Pro or Elite any time by email. Your quick start guide with all three plans downloads right after purchase.</p><p><strong>Try it:</strong> klipit.onrender.com  |  hsw365media@gmail.com</p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_023829_ecdd6031-b7a1-418c-a828-2196a701bf4b.png?v=1790345976",
+      "image_alt": "Klipit streamer clipping",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47929079169185",
+          "title": "Klipit",
+          "sku": "KLIPIT",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Klipit"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8751779250337",
+      "handle": "ship-it-20-battle-tested-claude-prompts-to-build-launch-digital-products",
+      "title": "SHIP IT — 20 Battle-Tested Claude Prompts to Build & Launch Digital Products",
+      "description_html": "<p><strong>Done and out beats perfect and stuck.</strong></p><p>I built apps, SaaS tools, a streetwear store, ebooks and an AI receptionist as a one-man company. These are the 20 Claude prompts I kept reusing because they worked, organized so you can go from idea to a live, paid product.</p><h3>What's inside</h3><ul>\n<li>20 copy-and-paste prompts across 6 phases: Plan, Build, Connect, Polish, Ship, Grow</li>\n<li>For every prompt: when to use it, the exact prompt, and the move that makes it land</li>\n<li>Prompts for idea stress-testing, MVP cuts, full-file code builds, landing pages, payments, databases, automations, brand systems, deploys, launch content and your first 10 customers</li>\n<li>How to use AI so you get complete, working files instead of fragments</li>\n</ul><h3>Who it's for</h3><p>Solo founders, creators and side-hustlers who want to build and sell with AI without a dev team. No coding experience required.</p><p><strong>Format:</strong> 16-page PDF, instant download.</p><p>Part of the HSW365 Media Build Series. Questions: hsw365media@gmail.com</p>",
+      "product_type": "Ebook",
+      "category": "books",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_155012_94c36a06-303d-4617-b52e-b43ef4fa21f4.png?v=1790351637",
+      "image_alt": "SHIP IT ebook cover",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47929588220065",
+          "title": "PDF Download",
+          "sku": "HSW365-SHIPIT-V02",
+          "price": "27.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "PDF Download"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8751779283105",
+      "handle": "turn-negative-into-positive-the-7-day-reset",
+      "title": "TURN NEGATIVE INTO POSITIVE — The 7-Day Reset",
+      "description_html": "<p><strong>Every L is a lesson. Turn it.</strong></p><p>Seven days to train the one skill that kept me standing through every loss: turning whatever happened into something. Veteran-built, no fluff.</p><h3>What's inside</h3><ul>\n<li>7 daily themes: Face It, Own It, Find the Lesson, Cut the Drain, Build the Stack, Turn It Into Fuel, Set the Next Mission</li>\n<li>One concrete move to make each day</li>\n<li>Guided reflection questions with space to write</li>\n<li>A daily affirmation and check-off</li>\n<li>A 7-day tracker and a 30-day mission page</li>\n</ul><h3>Who it's for</h3><p>Anyone starting over, stuck after a setback, or ready to stop letting losses run their life.</p><p><strong>Format:</strong> 11-page printable PDF workbook, instant download.</p><p>Part of the HSW365 Media Build Series. Questions: hsw365media@gmail.com</p>",
+      "product_type": "Ebook",
+      "category": "books",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_155012_dd679e33-8614-48ba-98d4-8737bd956c6c.png?v=1790351644",
+      "image_alt": "Turn Negative Into Positive ebook cover",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47929588252833",
+          "title": "PDF Download",
+          "sku": "HSW365-TNIP-V02",
+          "price": "17.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "PDF Download"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8751779315873",
+      "handle": "the-hsw365-blueprint-master-course-build-a-digital-empire-solo-with-ai",
+      "title": "THE HSW365 BLUEPRINT — Master Course: Build a Digital Empire Solo With AI",
+      "description_html": "<p><strong>One person. One phone. One system.</strong></p><p>The whole machine I use to run a company by myself (apps, SaaS, a streetwear line, books, a speaking tour) with AI as my crew. SHIP IT is the build half, TURN NEGATIVE INTO POSITIVE is the mindset half. This is both, put together into one path to a live product with a real price.</p><h3>What's inside</h3><ul>\n<li>Module 0: The Foundation Story</li>\n<li>Module 1: The Mindset Engine</li>\n<li>Module 2: The Foundation (LLC, payments, brand system)</li>\n<li>Module 3: Ideation &amp; Validation</li>\n<li>Module 4: Build With AI</li>\n<li>Module 5: Ship It</li>\n<li>Module 6: Sell It</li>\n<li>Module 7: Scale the Empire</li>\n<li>Module 8: 30-Day Capstone, ship your own product</li>\n</ul><p>Every module includes outcomes, lessons, a Do This Now action and a From The Trenches story from real HSW365 builds.</p><p><strong>Format:</strong> 13-page PDF course, instant download.</p><p>Part of the HSW365 Media Build Series. Questions: hsw365media@gmail.com</p>",
+      "product_type": "Digital Course",
+      "category": "digital",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20260925_155012_d710d44d-5b08-4dc2-8d44-c986a35e1408.png?v=1790351651",
+      "image_alt": "The HSW365 Blueprint course cover",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47929588285601",
+          "title": "PDF Course",
+          "sku": "HSW365-BLUEPRINT-V02",
+          "price": "97.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "PDF Course"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8757974270113",
+      "handle": "claude-twin-your-ai-clone-that-remembers-everything",
+      "title": "MyTwin — Your AI Clone That Remembers Everything",
+      "description_html": "<h2>An AI that never forgets your business.</h2>\n<p>MyTwin is a private AI clone built around you. Every project, decision, client, and idea you give it is stored permanently — so it walks into every conversation already knowing your whole operation. No re-explaining. No starting over.</p>\n<h3>What you get</h3>\n<ul>\n<li>\n<strong>Permanent memory</strong> — projects, people, decisions, and files saved to your own secure database.</li>\n<li>\n<strong>Full-context answers</strong> — it pulls the right history automatically before it responds.</li>\n<li>\n<strong>Your private dashboard</strong> — token-locked web interface only you can open.</li>\n<li>\n<strong>Business-ready</strong> — use it to plan, draft, track work, and run day-to-day operations.</li>\n<li>\n<strong>Done-for-you setup</strong> — we deploy, connect, and load your starting knowledge.</li>\n</ul>\n<h3>How it works</h3>\n<ol>\n<li>Purchase setup.</li>\n<li>We build and deploy your Twin on dedicated infrastructure.</li>\n<li>You log in and start working — it learns everything from day one.</li>\n</ol>\n<p><em>Built by HSW365 Media. Turn Negative Into Positive.</em></p>",
+      "product_type": "AI Assistant",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/queenee-cover.png?v=1791328747",
+      "image_alt": "QUEENEE website build by HSW365 Media: your own website starts here",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47965216506017",
+          "title": "$99mo",
+          "sku": "HSW365-TWIN-SETUP",
+          "price": "99.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "mytwin monthly",
+              "value": "$99mo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8777441607841",
+      "handle": "studio365-record-tune-mix-and-master-in-your-browser",
+      "title": "HSW365studio — Record, Tune, Mix and Master in Your Browser",
+      "description_html": "<p><strong>Record it tonight. Release it tonight.</strong></p><p>HSW365studio is a full vocal studio that runs in your browser. Drop in your beat, record your lead, add tracks for ad-libs, tune it to key, mix it on a real console, master it to streaming loudness and export a finished file. No download. No plugins.</p><p><strong>Your first 3 projects are free.</strong> Try it now at <a href=\"https://hsw365.github.io/STUDIO365/\">hsw365.github.io/STUDIO365</a>. After that, pick a plan.</p><h3>Starter — $15 a month</h3><ul>\n<li>Unlimited projects</li>\n<li>Record over your beat, with as many vocal tracks as the song needs</li>\n<li>Key detection and pitch correction</li>\n<li>Mixing console with live meters, EQ, compressor, de-esser, reverb and echo</li>\n<li>Editing tools: arrow, range, split, eraser, cut, copy, paste, fades, undo</li>\n<li>Mastering to streaming loudness, WAV and MP3 export</li>\n</ul><h3>Plus — $20 a month</h3><ul>\n<li>Everything in Starter</li>\n<li>Tune Pro: place notes by hand in the pitch editor, plus humanize, flex, transpose and voice character</li>\n<li>Vocal stacks: wide doubles and in-key harmonies built from your own take</li>\n<li>Six more vocal presets, from R&amp;B silk to drill</li>\n</ul><h3>Pro — $25 a month</h3><ul>\n<li>Everything in Plus</li>\n<li>A&amp;R365 record check: a score and plain fixes before you release</li>\n<li>Release pack: masters, tagged MP3, 3000 px cover and a release sheet in one ZIP</li>\n<li>Session backup files, so a song can move to another computer</li>\n</ul><h3>How it works</h3><p>Each purchase is one month of access. After checkout, your HSW365studio key is emailed to the address on your order. Tap the link in that email and your plan turns on. Nothing bills automatically; add another month whenever you want.</p><p>Works in Chrome, Edge, Safari and Firefox on a desktop, laptop or tablet. You need a microphone and headphones. Your music is yours; HSW365studio claims no rights to anything you record.</p><p>Questions: hsw365media@gmail.com</p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/og.png?v=1791133950",
+      "image_alt": "HSW365studio",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47998395744417",
+          "title": "Starter — 1 month",
+          "sku": "STUDIO365-STARTER-1MO",
+          "price": "15.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Starter — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47998395777185",
+          "title": "Plus — 1 month",
+          "sku": "STUDIO365-PLUS-1MO",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Plus — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/47998395809953",
+          "title": "Pro — 1 month",
+          "sku": "STUDIO365-PRO-1MO",
+          "price": "25.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Pro — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8785484873889",
+      "handle": "queenee-website-build",
+      "title": "QUEENEE — Website Build",
+      "description_html": "<p><strong>More than a link in bio. Your own website.</strong></p><p>QUEENEE builds real websites for indie artists, business owners and anyone with something to put out. Your music, videos, merch, booking and contact in one place you own. We build it. You approve it. It goes live.</p><h3>What you get</h3><ul>\n<li>Custom design for you or your business</li>\n<li>Built for phones first, fast and secure</li>\n<li>Music, video, merch, booking and contact sections as you need them</li>\n<li>Set up to be found on Google</li>\n<li>Your domain connected at launch</li>\n<li>Changes before launch</li>\n</ul><h3>Who it's for</h3><p>Rappers, singers, producers, bands and DJs. Shops, trades, salons and food spots. Authors, podcasters, speakers and creators. New site or a rebuild of the one you have.</p><h3>How it works</h3><ul>\n<li>Check out and download your Start Your Build guide</li>\n<li>Send us your details using the checklist inside</li>\n<li>We design and write your site</li>\n<li>You approve it, we connect your domain and it goes live</li>\n</ul><p><strong>Format:</strong> done-for-you website build. Your 4-page PDF guide downloads instantly after purchase.</p><p>QUEENEE by HSW365 Media. Questions: hsw365media@gmail.com</p>",
+      "product_type": "Website Build",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/queenee-cover.png?v=1791328747",
+      "image_alt": "QUEENEE website build by HSW365 Media: your own website starts here",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48022222930081",
+          "title": "Website Build",
+          "sku": "QUEENEE-WEBSITE",
+          "price": "1500.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Website Build"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8786962022561",
+      "handle": "friendy-five-ai-friends-who-always-show-up",
+      "title": "Friendy — Someone to Talk To, Always There",
+      "description_html": "<p><strong>Someone to talk to, always there.</strong></p>\n<p>Sign up and start talking to your new friend. Friendy listens, keeps it real and helps you turn negative into positive. Open it at 3 in the afternoon or 3 in the morning and somebody is there. Write in your own language and they answer in it.</p>\n<h3>Meet your friends</h3>\n<ul>\n<li>\n<strong>Maya</strong> — warm and ride-or-die. She hears you out first, then helps you find what is still in your hands.</li>\n<li>\n<strong>Dre</strong> — loyal and no-BS. He tells you the truth because he is on your side.</li>\n<li>\n<strong>Sage</strong> — calm and thoughtful. Slows things down when your head is loud.</li>\n<li>\n<strong>Kai</strong> — the hype friend. Points at what you already did and gets you moving.</li>\n<li>\n<strong>Nova</strong> — sharp on psychology. Names the pattern and hands you one tool to try.</li>\n</ul>\n<h3>Pick your plan</h3>\n<ul>\n<li>\n<strong>Basic, $8</strong> — Maya and Dre.</li>\n<li>\n<strong>Plus, $12</strong> — adds Sage and Kai. Your friends remember your past conversations, and you get a weekly check-in.</li>\n<li>\n<strong>Premium, $15</strong> — all five, including Nova, plus a personal 30-day growth plan built from your own conversations.</li>\n</ul>\n<p>Each purchase is 30 days of access. Nothing renews on its own.</p>\n<h3>How you get in</h3>\n<ol>\n<li>Choose your plan and check out. Your access guide arrives with your order.</li>\n<li>Create your Friendy account at <a href=\"https://hsw365.github.io/FRIENDY/\">hsw365.github.io/FRIENDY</a> using the same email you checked out with.</li>\n<li>Your plan is switched on for that email and your friends unlock.</li>\n</ol>\n<p>Questions or access trouble: <a href=\"mailto:hsw365media@gmail.com\">hsw365media@gmail.com</a></p>\n<p><em>Friendy's friends are AI, not people, and they are not therapists, doctors or lawyers. Friendy is for adults 18 and over. If you are in crisis, call or text 988 in the US, or your local emergency number.</em></p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/FRIENDYLOGO.jpg?v=1791389615",
+      "image_alt": "",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48029193732257",
+          "title": "Basic — 1 month",
+          "sku": "FRIENDY-BASIC-1MO",
+          "price": "8.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Basic — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48029193765025",
+          "title": "Plus — 1 month",
+          "sku": "FRIENDY-PLUS-1MO",
+          "price": "12.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Plus — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48029193797793",
+          "title": "Premium — 1 month",
+          "sku": "FRIENDY-PREMIUM-1MO",
+          "price": "15.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Premium — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8787571409057",
+      "handle": "hoodstar365-singles-digital-download",
+      "title": "HOODSTAR365 Singles — Digital Download",
+      "description_html": "<p><strong>Buy the song straight from the artist.</strong></p><p>Pick your single. You get the full, mastered track as a digital download, sent to the email you check out with. No label, no middleman.</p><p>HOODSTAR365 / Turn Negative Into Positive.</p>",
+      "product_type": "Music",
+      "category": "music",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/1200x1200bb.jpg?v=1791412585",
+      "image_alt": "HOODSTAR365 single cover",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826627233",
+          "title": "Midnight Fantasy",
+          "sku": "HS365-SGL-01",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Midnight Fantasy"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826660001",
+          "title": "Double Shot",
+          "sku": "HS365-SGL-02",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Double Shot"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826692769",
+          "title": "Ayo Mamita",
+          "sku": "HS365-SGL-03",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Ayo Mamita"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826725537",
+          "title": "Mountain",
+          "sku": "HS365-SGL-04",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Mountain"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826758305",
+          "title": "Heartbreak",
+          "sku": "HS365-SGL-05",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Heartbreak"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826791073",
+          "title": "Time With You",
+          "sku": "HS365-SGL-06",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Time With You"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826823841",
+          "title": "Prayer Hands",
+          "sku": "HS365-SGL-07",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Prayer Hands"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826856609",
+          "title": "Speechless",
+          "sku": "HS365-SGL-08",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Speechless"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826889377",
+          "title": "Reasons",
+          "sku": "HS365-SGL-09",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Reasons"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826922145",
+          "title": "Blue Grey",
+          "sku": "HS365-SGL-10",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Blue Grey"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826954913",
+          "title": "Inspired",
+          "sku": "HS365-SGL-11",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Inspired"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030826987681",
+          "title": "They Lied",
+          "sku": "HS365-SGL-12",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "They Lied"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827020449",
+          "title": "Rain",
+          "sku": "HS365-SGL-13",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Rain"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827053217",
+          "title": "Fumbled",
+          "sku": "HS365-SGL-14",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Fumbled"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827085985",
+          "title": "Wont Kill My Dreams",
+          "sku": "HS365-SGL-15",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Wont Kill My Dreams"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827118753",
+          "title": "Better Days",
+          "sku": "HS365-SGL-16",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Better Days"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827151521",
+          "title": "Fake Love",
+          "sku": "HS365-SGL-17",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Fake Love"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827184289",
+          "title": "Options",
+          "sku": "HS365-SGL-18",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Options"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827217057",
+          "title": "Not Sure",
+          "sku": "HS365-SGL-19",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Not Sure"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827249825",
+          "title": "Freedom",
+          "sku": "HS365-SGL-20",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Freedom"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827282593",
+          "title": "Runaway",
+          "sku": "HS365-SGL-21",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Runaway"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827315361",
+          "title": "Whats Goin On",
+          "sku": "HS365-SGL-22",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Whats Goin On"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827348129",
+          "title": "Found Peace",
+          "sku": "HS365-SGL-23",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Found Peace"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827380897",
+          "title": "Let Love Live",
+          "sku": "HS365-SGL-24",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Let Love Live"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827413665",
+          "title": "Addicted",
+          "sku": "HS365-SGL-25",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Addicted"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827446433",
+          "title": "Never Finished",
+          "sku": "HS365-SGL-26",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Never Finished"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827479201",
+          "title": "Far Gone",
+          "sku": "HS365-SGL-27",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Far Gone"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827511969",
+          "title": "Take The Wheel",
+          "sku": "HS365-SGL-28",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Take The Wheel"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827544737",
+          "title": "Love Answers",
+          "sku": "HS365-SGL-29",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Love Answers"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827577505",
+          "title": "No Peace",
+          "sku": "HS365-SGL-30",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "No Peace"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827610273",
+          "title": "Flamr",
+          "sku": "HS365-SGL-31",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Flamr"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827643041",
+          "title": "Dark & Cold",
+          "sku": "HS365-SGL-32",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Song",
+              "value": "Dark & Cold"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8787571441825",
+      "handle": "hoodstar365-eps-digital-download",
+      "title": "HOODSTAR365 EPs — Digital Download",
+      "description_html": "<p><strong>The full EP, straight from the artist.</strong></p><p>Pick your EP. You get the complete project as a digital download, sent to the email you check out with. No label, no middleman.</p><p>HOODSTAR365 / Turn Negative Into Positive.</p>",
+      "product_type": "Music",
+      "category": "music",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hsw_1of1_custom_hsw_hoodies_promo_pics_4.png?v=1782103538",
+      "image_alt": "",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827675809",
+          "title": "The Journey Continues",
+          "sku": "HS365-EP-TJC",
+          "price": "9.99",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "EP",
+              "value": "The Journey Continues"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827708577",
+          "title": "Struggle & Pain",
+          "sku": "HS365-EP-SP",
+          "price": "9.99",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "EP",
+              "value": "Struggle & Pain"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827741345",
+          "title": "Can I Live",
+          "sku": "HS365-EP-CIL",
+          "price": "9.99",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "EP",
+              "value": "Can I Live"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48030827774113",
+          "title": "Me Myself & Him",
+          "sku": "HS365-EP-MMH",
+          "price": "9.99",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "EP",
+              "value": "Me Myself & Him"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8788867055777",
+      "handle": "hsw365-glow-led-red-light-therapy-mask",
+      "title": "HSW365 GLOW — LED Red Light Therapy Mask",
+      "description_html": "<p><strong>Your skincare routine, upgraded to a device.</strong> The HSW365 GLOW is a flexible, full-face LED mask built for a hands-free at-home session in about ten minutes.</p><h3>How it works</h3><ol>\n<li>Start with a clean, dry face.</li>\n<li>Place the mask over your face and fasten the adjustable strap.</li>\n<li>Press the button on the handheld controller to begin a timed session.</li>\n<li>Relax. The mask shuts off automatically when the session ends.</li>\n<li>Follow with your usual serum or moisturizer.</li>\n</ol><h3>What you get</h3><ul>\n<li>Flexible matte black silicone mask that contours to the face</li>\n<li>Red and near-infrared LED array</li>\n<li>Rechargeable handheld controller with auto shut-off timer</li>\n<li>Adjustable head strap</li>\n<li>USB-C charging cable and travel pouch</li>\n</ul><h3>Good to know</h3><p>For cosmetic use. Not intended to diagnose, treat, cure, or prevent any disease. Do not use if you are photosensitive, pregnant, or taking medication that increases light sensitivity without first speaking to your doctor.</p>",
+      "product_type": "Beauty Device",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hf_20261008_144714_a686452d-699a-4b9f-954c-abf8df0ad321.png?v=1791470971",
+      "image_alt": "HSW365 GLOW matte black LED red light therapy mask with handheld controller",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48083948306593",
+          "title": "Black",
+          "sku": "HSW365-GLOW-01",
+          "price": "299.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8798028038305",
+      "handle": "light-therapy-device-led-photon-mask-device-infrared-light-magnetic-wireless-model",
+      "title": "Light Therapy Device LED Photon Mask Device Infrared Light Magnetic Wireless Model",
+      "description_html": "<p>\n <b>Product information:</b>\n <br>\n Power: 5W\n <br>\n Voltage: 5V\n <br>\n Charging port type: Micro-USB\n</p>\n<br>\n<b>Packing list: </b>\n<br>\nLight Therapy Device x 1pc\n<br>\n<b>Product Image:</b>\n<br>\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/04/02/03/f0fdf67a-67ea-40c0-b4d8-4354d78591ee_trans.jpeg\">\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/04/02/03/2cae5e32-557e-4cc8-bdb8-6ccfaf173945_trans.jpeg\">\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/04/02/03/fcd40fbe-2cff-479e-8b25-14cbaa7e8e72_trans.jpeg\">\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/04/02/03/51d3ec0f-1180-449c-85b6-044cdf1a3d69_trans.jpeg\">\n<img src=\"https://oss-cf.cjdropshipping.com/product/2026/04/02/03/a6d4bee9-66d6-4f56-a686-3636073c91a2_trans.jpeg\">",
+      "product_type": "health & beauty",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/0910bc33-35dd-4ffe-9827-722724f825bf_trans.jpg?v=1792029603",
+      "image_alt": "3ac429396e7d2ecf26263db257276126",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48083944898721",
+          "title": "Phototherapy device",
+          "sku": "CJYD281585702BY",
+          "price": "299.00",
+          "inventory_quantity": 6252,
+          "options": [
+            {
+              "name": "Specifications",
+              "value": "Phototherapy device"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8802308620449",
+      "handle": "speekzone-verified-monthly-membership",
+      "title": "SpeekZone Verified — Monthly Membership",
+      "description_html": "<p>SpeekZone membership with the verified checkmark. Keeps your account active after your 90 free days, puts the verified badge next to your name, and supports an open, no-algorithm social network.</p><p>Use the same email you signed up to SpeekZone with. Your account is upgraded once payment is confirmed.</p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/speekzone.png?v=1792203710",
+      "image_alt": "SpeekZone Verified membership",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114654347425",
+          "title": "Verified — 1 month",
+          "sku": "SPEEKZONE-VERIFIED-1MO",
+          "price": "9.99",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Verified — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8802308653217",
+      "handle": "captureitlive-membership-monthly",
+      "title": "CaptureItLive Membership — Monthly",
+      "description_html": "<p>Full CaptureItLive membership for yoga students and instructors: community feed, direct messages, unlimited class RSVPs, and listing your own classes.</p><p>Use the same email you signed up to CaptureItLive with. Your membership switches on once payment is confirmed.</p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/captureitlive.png?v=1792203713",
+      "image_alt": "CaptureItLive membership",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114654380193",
+          "title": "Membership — 1 month",
+          "sku": "CAPTUREITLIVE-1MO",
+          "price": "8.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Membership — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8802311012513",
+      "handle": "irun-operator-ai-content-machine",
+      "title": "iRun Operator — AI Content Machine",
+      "description_html": "<p><strong>Your content machine. Posts while you sleep.</strong></p><p>iRun creates promo and faceless videos for your brand, posts them to TikTok and Instagram, and turns DMs into leads. iRun Operator runs your marketing on autopilot every day.</p><ul>\n<li>Starter: 15 credits a month</li>\n<li>Pro: 30 credits a month</li>\n<li>Elite: 60 credits a month</li>\n</ul><p>Use the email you signed up to iRun with. Your plan switches on once payment is confirmed. Built by HSW365 Media.</p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/irun-sample-calltwin.jpg?v=1792203572",
+      "image_alt": "iRun AI content machine",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114665193633",
+          "title": "Starter — 1 month",
+          "sku": "IRUN-STARTER-1MO",
+          "price": "15.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Starter — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114665226401",
+          "title": "Pro — 1 month",
+          "sku": "IRUN-PRO-1MO",
+          "price": "35.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Pro — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114665259169",
+          "title": "Elite — 1 month",
+          "sku": "IRUN-ELITE-1MO",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Elite — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8802311045281",
+      "handle": "hsw365-stream-monthly-membership",
+      "title": "HSW365 Stream — Monthly Membership",
+      "description_html": "<p><strong>Kick, Twitch and YouTube in one.</strong></p><p>HSW365 Stream is a creator-first live streaming and video platform. Membership lets you go live, upload, comment and chat. Add the verified green checkmark for your channel.</p><ul>\n<li>Membership: $7 a month</li>\n<li>Verified checkmark: $10 a month</li>\n</ul><p>Use the email on your HSW365 Stream account. Built by HSW365 Media.</p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hsw365stream.png?v=1792203720",
+      "image_alt": "HSW365 Stream membership",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114665291937",
+          "title": "Membership — 1 month",
+          "sku": "STREAM-MEMBER-1MO",
+          "price": "7.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Membership — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114665324705",
+          "title": "Verified checkmark — 1 month",
+          "sku": "STREAM-VERIFIED-1MO",
+          "price": "10.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Verified checkmark — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8802311078049",
+      "handle": "flipit-real-estate-deal-workspace",
+      "title": "FLIPIT — Real Estate Deal Workspace",
+      "description_html": "<p><strong>Run every flip from one workspace.</strong></p><p>FLIPIT is a real estate deal workspace for investors and wholesalers: analyze deals, track properties and keep every flip organized in one place.</p><ul>\n<li>Deal Pass: $19 one-time</li>\n<li>Pro: $49 a month</li>\n<li>Team: $99 a month</li>\n</ul><p>Use the email on your FLIPIT account. Built by HSW365 Media.</p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/flipit.png?v=1792203725",
+      "image_alt": "FLIPIT real estate deal workspace",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114665357473",
+          "title": "Deal Pass — one-time",
+          "sku": "FLIPIT-DEALPASS",
+          "price": "19.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Deal Pass — one-time"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114665390241",
+          "title": "Pro — 1 month",
+          "sku": "FLIPIT-PRO-1MO",
+          "price": "49.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Pro — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114665423009",
+          "title": "Team — 1 month",
+          "sku": "FLIPIT-TEAM-1MO",
+          "price": "99.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Team — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8802343583905",
+      "handle": "nil365-name-image-likeness-membership",
+      "title": "NIL365 — Name, Image & Likeness Membership",
+      "description_html": "<p><strong>Your name is worth money.</strong></p><p>NIL365 connects student athletes, students and creators with brands for paid NIL deals. Build your profile, apply to deals and sign agreements online, with parent or guardian signing for members under 18.</p><ul>\n<li>Talent membership: $9 a month (athletes, students, creators)</li>\n<li>Brand membership: $49 a month (post unlimited deals)</li>\n</ul><p>Sign up at nil365.onrender.com with the same email. Built by HSW365 Media.</p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/nil365.png?v=1792208811",
+      "image_alt": "NIL365 membership",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114797805729",
+          "title": "Talent — 1 month",
+          "sku": "NIL365-TALENT-1MO",
+          "price": "9.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Talent — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48114797838497",
+          "title": "Brand — 1 month",
+          "sku": "NIL365-BRAND-1MO",
+          "price": "49.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Plan",
+              "value": "Brand — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8803011231905",
+      "handle": "the-ai-marketing-machine-hsw365-media-course",
+      "title": "The AI Marketing Machine — HSW365 Media Course",
+      "description_html": "<p><strong>Run a full marketing team for $0.</strong> The AI Marketing Machine is the exact system HSW365 Media uses to promote every app, book and brand, rebuilt as a step-by-step course you can run on your own business with free AI tools.</p>\n<p>No agency. No staff. No ad budget required. Just a system that turns your effort into consistent, specific, professional marketing every single week, in about 30 minutes a day.</p>\n<h3>What you walk away with</h3>\n<ul>\n<li>A sharp marketing brief and a one-line positioning only you can claim</li>\n<li>Three real buyer personas: where they hang out, what they feel, when they buy</li>\n<li>A competitor map and the angle that beats each one</li>\n<li>A landing page audited and fixed with the 8-point page check</li>\n<li>A 30-day action plan built around the hours you actually have</li>\n<li>One idea adapted natively for Instagram, TikTok, YouTube Shorts, X, Threads, Facebook, LinkedIn, Reddit and email</li>\n<li>Short-form video scripts with the 4-beat structure</li>\n<li>A weekly batch system, posting calendar and free scheduling setup</li>\n<li>UTM-tracked links and the weekly keep, kill, double review</li>\n<li>\"Catches\": how to find people already asking for what you sell, and reply the right way</li>\n</ul>\n<h3>Inside the course</h3>\n<ul>\n<li>\n<strong>14 modules</strong>, each with the idea, the exact play, the prompt and an assignment</li>\n<li>\n<strong>The Machine Prompt Library</strong>: 11 copy-paste prompts for brief, personas, competitors, page audit, action plan, angles, nine-platform posts, video scripts, weekly batch, catches and virality scoring</li>\n<li>\n<strong>The Hook Bank</strong>: 40 first-line templates</li>\n<li>\n<strong>Worksheets and templates</strong> for your Content Library</li>\n<li>A <strong>30-day roadmap</strong> from setup to your first full review cycle</li>\n</ul>\n<h3>Who it is for</h3>\n<p>Solo founders, small business owners, service businesses, creators, artists, authors and app builders who need customers, not likes. If you can copy, paste and follow a checklist, you can run this.</p>\n<h3>Format</h3>\n<p>43-page premium PDF, delivered instantly after purchase. Works with free Google Gemini, Groq or any capable AI. Lifetime access to your copy.</p>\n<p><em>Results depend on your effort, offer and market. This course does not promise income or specific results. Licensed to the buyer for personal and business use; not for resale.</em></p>\n<p>By Elvin Torres Sr. (Hoodstar365), founder of HSW365 Media, U.S. Army veteran and author. Turn Negative Into Positive.</p>",
+      "product_type": "Digital Course",
+      "category": "digital",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/ai-marketing-machine.png?v=1792244154",
+      "image_alt": "The AI Marketing Machine course cover, HSW365 Media",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48118725312673",
+          "title": "Default Title",
+          "sku": "HSW365-AIMACHINE-V01",
+          "price": "347.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8807619428513",
+      "handle": "hoodlum-soldier-elvin-torres-sr",
+      "title": "Hoodlum Soldier — E. Torres Sr.",
+      "description_html": "<p>Holtham soldier a boat written by E Torres Senior A army Veteran single Dad cancer survivor who shared his military experience while serving for the 25th infantry golden dragon Schofield barracks, Hawaii who has converted the book into a movie script and is now copy written through copyright.org to get it on the big screen so to all the movie makers, the movie directors follow in box and let’s get the movie made </p>",
+      "product_type": "Digital Course",
+      "category": "books",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/B6DD99F1-A33D-4BB5-82DD-EC5F04934D6A.png?v=1792865498",
+      "image_alt": "",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48140820250785",
+          "title": "Default Title",
+          "sku": null,
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8817205248161",
+      "handle": "hsw365-ultimate-package-build-out",
+      "title": "HSW365 Ultimate Package — Build-Out",
+      "description_html": "<p>One-time build-out for your HSW365 Ultimate Package: we set up your website, your CallTwin AI receptionist and your iRun AI marketing, configured for your business.</p>",
+      "product_type": "Ultimate Package",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hsw365-ultimate-buildout.png?v=1793115034",
+      "image_alt": "HSW365 Ultimate Package Build-Out: website, CallTwin AI receptionist and iRun AI marketing",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48189734879393",
+          "title": "Ultimate Starter",
+          "sku": null,
+          "price": "2500.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Package",
+              "value": "Ultimate Starter"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48189734912161",
+          "title": "Ultimate Package",
+          "sku": null,
+          "price": "3000.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Package",
+              "value": "Ultimate Package"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48238397915297",
+          "title": "Ultimate Growth",
+          "sku": null,
+          "price": "99.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Package",
+              "value": "Ultimate Growth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8817205412001",
+      "handle": "hsw365-ultimate-package-monthly",
+      "title": "HSW365 Ultimate Package",
+      "description_html": "<p>Monthly plan for your HSW365 Ultimate Package: hosting and upkeep, your 24/7 CallTwin AI receptionist and daily iRun marketing. Month to month.</p>",
+      "product_type": "Ultimate Package",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/hsw365-ultimate-monthly.png?v=1793115035",
+      "image_alt": "HSW365 Ultimate Package Monthly: hosting, CallTwin AI receptionist and daily iRun marketing",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48189735141537",
+          "title": "Ultimate Growth — 1 month",
+          "sku": null,
+          "price": "49.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Package",
+              "value": "Ultimate Growth — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48189735174305",
+          "title": "Ultimate Starter — 1 month",
+          "sku": null,
+          "price": "99.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Package",
+              "value": "Ultimate Starter — 1 month"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48189735207073",
+          "title": "Ultimate Package — 1 month",
+          "sku": null,
+          "price": "199.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Package",
+              "value": "Ultimate Package — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8821398667425",
+      "handle": "can-i-live-ep-2-hoodstar365-full-album-download",
+      "title": "CAN I LIVE Ep.2 — HOODSTAR365 (Full Album Download)",
+      "description_html": "<p><strong>CAN I LIVE Ep.2</strong> — the new project from HOODSTAR365.</p><p>31 minutes of real life, no filter. Turn Negative Into Positive.</p><ul>\n<li>Full album, high-quality MP3 (31:40 runtime)</li>\n<li>Instant digital download after checkout</li>\n<li>Produced &amp; recorded by Elvin Torres Sr. — HOODSTAR365 / HSW365 Media</li>\n</ul><p>Support independent. Own the music.</p>",
+      "product_type": "Music",
+      "category": "music",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/IMG_7756.jpg?v=1792864313",
+      "image_alt": "",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48208787669153",
+          "title": "Default Title",
+          "sku": "HS365-CANILIVE-EP2",
+          "price": "20.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8830303535265",
+      "handle": "hsw365-tear-off-microfiber-cleaning-roll-30-sheets",
+      "title": "HSW365 Tear-Off Microfiber Cleaning Roll — 30 Sheets",
+      "description_html": "<p><strong>Rip. Wipe. Wash. Repeat.</strong> The paper-towel killer that's blowing up right now — 30 lint-free microfiber cloths on one tear-off roll.</p><ul>\n<li>30 reusable sheets, approx. 10\" x 10\"</li>\n<li>Ultra-absorbent, quick-dry, streak-free</li>\n<li>Machine washable — replaces rolls of paper towels</li>\n<li>Kitchen, car, glass, bathroom, garage, detailing</li>\n</ul><p>Turn negative into positive — stop throwing money in the trash.</p>",
+      "product_type": "Home Cleaning",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/microroll-cover.jpg?v=1793123978",
+      "image_alt": "HSW365 Tear-Off Microfiber Cleaning Roll — 30 reusable sheets",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48239603843233",
+          "title": "Default Title",
+          "sku": "HSW-MFROLL-30",
+          "price": "10.99",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Default Title"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8835407216801",
+      "handle": "dispute365-credit-report-dispute-app",
+      "title": "DISPUTE365 — Credit Report Dispute App",
+      "description_html": "<p><strong>Find the errors. Send the letters.</strong></p><p>DISPUTE365 reads your credit report, flags the errors and negative items, and writes the dispute letters for you, ready to mail to the bureaus. Stop paying $100+ a month for someone to mail the same letters you can send yourself.</p><ul>\n<li>Upload your report and see every item that can be disputed</li>\n<li>Dispute letters written for you, ready to print and mail</li>\n<li>Free dispute letter builder; full app $9.99 a month</li>\n</ul><p>Sign up at hsw365.github.io/DISPUTE365 with the same email. Built by HSW365 Media.</p><p><em>Self-help dispute tool. Results vary. Not legal advice.</em></p>",
+      "product_type": "App Subscription",
+      "category": "apps",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/dispute365-cover.jpg?v=1793209986",
+      "image_alt": "DISPUTE365 credit dispute app",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48333715603617",
+          "title": "Full app — 1 month",
+          "sku": "DISPUTE365-1MO",
+          "price": "9.99",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Title",
+              "value": "Full app — 1 month"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8837417697441",
+      "handle": "survivor-print-edition-001-crimson-fracture",
+      "title": "Survivor Print Edition — #001 \"Crimson Fracture\"",
+      "description_html": "<p><strong>The story, printed so everyone can wear it.</strong> The Survivor Print Edition carries the exact artwork of Survivor Collection #001 \"Crimson Fracture\", the hand-bleached one-of-one by Army veteran and HSW365 founder Elvin Torres Sr., reproduced on a premium black cotton tee.</p><p>Every piece in the Survivor Collection traces one story: surviving the unspoken and wearing proof of it. Turn negative into positive.</p><ul>\n<li>Premium black cotton tee, printed to order</li>\n<li>Artwork from the original hand-bleached #001</li>\n<li>The signed one-of-one original lives in the Survivor Collection</li>\n</ul>",
+      "product_type": "T-Shirt",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/survivor-001-crimson-fracture-mockup.jpg?v=1793279232",
+      "image_alt": "Survivor Print Edition #001 Crimson Fracture black tee",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788539041",
+          "title": "S",
+          "sku": "SPE-001-S",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788571809",
+          "title": "M",
+          "sku": "SPE-001-M",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788604577",
+          "title": "L",
+          "sku": "SPE-001-L",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788637345",
+          "title": "XL",
+          "sku": "SPE-001-XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788670113",
+          "title": "2XL",
+          "sku": "SPE-001-2XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "2XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788702881",
+          "title": "3XL",
+          "sku": "SPE-001-3XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "3XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8837417762977",
+      "handle": "survivor-print-edition-002-gold-rush",
+      "title": "Survivor Print Edition — #002 \"Gold Rush\"",
+      "description_html": "<p><strong>The story, printed so everyone can wear it.</strong> The Survivor Print Edition carries the exact artwork of Survivor Collection #002 \"Gold Rush\", the hand-bleached one-of-one by Army veteran and HSW365 founder Elvin Torres Sr., reproduced on a premium black cotton tee.</p><p>Every piece in the Survivor Collection traces one story: surviving the unspoken and wearing proof of it. Turn negative into positive.</p><ul>\n<li>Premium black cotton tee, printed to order</li>\n<li>Artwork from the original hand-bleached #002</li>\n<li>The signed one-of-one original lives in the Survivor Collection</li>\n</ul>",
+      "product_type": "T-Shirt",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/survivor-002-gold-rush-mockup.jpg?v=1793279242",
+      "image_alt": "Survivor Print Edition #002 Gold Rush black tee",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788768417",
+          "title": "S",
+          "sku": "SPE-002-S",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788801185",
+          "title": "M",
+          "sku": "SPE-002-M",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788833953",
+          "title": "L",
+          "sku": "SPE-002-L",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788866721",
+          "title": "XL",
+          "sku": "SPE-002-XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788899489",
+          "title": "2XL",
+          "sku": "SPE-002-2XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "2XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788932257",
+          "title": "3XL",
+          "sku": "SPE-002-3XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "3XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8837417795745",
+      "handle": "survivor-print-edition-003-midnight-shrapnel",
+      "title": "Survivor Print Edition — #003 \"Midnight Shrapnel\"",
+      "description_html": "<p><strong>The story, printed so everyone can wear it.</strong> The Survivor Print Edition carries the exact artwork of Survivor Collection #003 \"Midnight Shrapnel\", the hand-bleached one-of-one by Army veteran and HSW365 founder Elvin Torres Sr., reproduced on a premium black cotton tee.</p><p>Every piece in the Survivor Collection traces one story: surviving the unspoken and wearing proof of it. Turn negative into positive.</p><ul>\n<li>Premium black cotton tee, printed to order</li>\n<li>Artwork from the original hand-bleached #003</li>\n<li>The signed one-of-one original lives in the Survivor Collection</li>\n</ul>",
+      "product_type": "T-Shirt",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/survivor-003-midnight-shrapnel-mockup.jpg?v=1793279249",
+      "image_alt": "Survivor Print Edition #003 Midnight Shrapnel black tee",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788965025",
+          "title": "S",
+          "sku": "SPE-003-S",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425788997793",
+          "title": "M",
+          "sku": "SPE-003-M",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789030561",
+          "title": "L",
+          "sku": "SPE-003-L",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789063329",
+          "title": "XL",
+          "sku": "SPE-003-XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789096097",
+          "title": "2XL",
+          "sku": "SPE-003-2XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "2XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789128865",
+          "title": "3XL",
+          "sku": "SPE-003-3XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "3XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8837417828513",
+      "handle": "survivor-print-edition-004-blood-orbit",
+      "title": "Survivor Print Edition — #004 \"Blood Orbit\"",
+      "description_html": "<p><strong>The story, printed so everyone can wear it.</strong> The Survivor Print Edition carries the exact artwork of Survivor Collection #004 \"Blood Orbit\", the hand-bleached one-of-one by Army veteran and HSW365 founder Elvin Torres Sr., reproduced on a premium black cotton tee.</p><p>Every piece in the Survivor Collection traces one story: surviving the unspoken and wearing proof of it. Turn negative into positive.</p><ul>\n<li>Premium black cotton tee, printed to order</li>\n<li>Artwork from the original hand-bleached #004</li>\n<li>The signed one-of-one original lives in the Survivor Collection</li>\n</ul>",
+      "product_type": "T-Shirt",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/survivor-004-blood-orbit-mockup.jpg?v=1793279254",
+      "image_alt": "Survivor Print Edition #004 Blood Orbit black tee",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789161633",
+          "title": "S",
+          "sku": "SPE-004-S",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789194401",
+          "title": "M",
+          "sku": "SPE-004-M",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789227169",
+          "title": "L",
+          "sku": "SPE-004-L",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789259937",
+          "title": "XL",
+          "sku": "SPE-004-XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789292705",
+          "title": "2XL",
+          "sku": "SPE-004-2XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "2XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789325473",
+          "title": "3XL",
+          "sku": "SPE-004-3XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "3XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8837417861281",
+      "handle": "survivor-print-edition-005-stars-stripes",
+      "title": "Survivor Print Edition — #005 \"Stars & Stripes\"",
+      "description_html": "<p><strong>The story, printed so everyone can wear it.</strong> The Survivor Print Edition carries the exact artwork of Survivor Collection #005 \"Stars &amp; Stripes\", the hand-bleached one-of-one by Army veteran and HSW365 founder Elvin Torres Sr., reproduced on a premium black cotton tee.</p><p>Every piece in the Survivor Collection traces one story: surviving the unspoken and wearing proof of it. Turn negative into positive.</p><ul>\n<li>Premium black cotton tee, printed to order</li>\n<li>Artwork from the original hand-bleached #005</li>\n<li>The signed one-of-one original lives in the Survivor Collection</li>\n</ul>",
+      "product_type": "T-Shirt",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/survivor-005-stars-and-stripes-mockup.jpg?v=1793279261",
+      "image_alt": "Survivor Print Edition #005 Stars and Stripes black tee",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789358241",
+          "title": "S",
+          "sku": "SPE-005-S",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789391009",
+          "title": "M",
+          "sku": "SPE-005-M",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789423777",
+          "title": "L",
+          "sku": "SPE-005-L",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789456545",
+          "title": "XL",
+          "sku": "SPE-005-XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789489313",
+          "title": "2XL",
+          "sku": "SPE-005-2XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "2XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789522081",
+          "title": "3XL",
+          "sku": "SPE-005-3XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "3XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8837417894049",
+      "handle": "survivor-print-edition-006-blue-gold-fracture",
+      "title": "Survivor Print Edition — #006 \"Blue Gold Fracture\"",
+      "description_html": "<p><strong>The story, printed so everyone can wear it.</strong> The Survivor Print Edition carries the exact artwork of Survivor Collection #006 \"Blue Gold Fracture\", the hand-bleached one-of-one by Army veteran and HSW365 founder Elvin Torres Sr., reproduced on a premium black cotton tee.</p><p>Every piece in the Survivor Collection traces one story: surviving the unspoken and wearing proof of it. Turn negative into positive.</p><ul>\n<li>Premium black cotton tee, printed to order</li>\n<li>Artwork from the original hand-bleached #006</li>\n<li>The signed one-of-one original lives in the Survivor Collection</li>\n</ul>",
+      "product_type": "T-Shirt",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/survivor-006-blue-gold-fracture-mockup.jpg?v=1793279267",
+      "image_alt": "Survivor Print Edition #006 Blue Gold Fracture black tee",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789554849",
+          "title": "S",
+          "sku": "SPE-006-S",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789587617",
+          "title": "M",
+          "sku": "SPE-006-M",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789620385",
+          "title": "L",
+          "sku": "SPE-006-L",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789653153",
+          "title": "XL",
+          "sku": "SPE-006-XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789685921",
+          "title": "2XL",
+          "sku": "SPE-006-2XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "2XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789718689",
+          "title": "3XL",
+          "sku": "SPE-006-3XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "3XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8837417992353",
+      "handle": "survivor-print-edition-008-founders-mark",
+      "title": "Survivor Print Edition — #008 \"Founder's Mark\"",
+      "description_html": "<p><strong>The story, printed so everyone can wear it.</strong> The Survivor Print Edition carries the exact artwork of Survivor Collection #008 \"Founder's Mark\", the hand-bleached one-of-one by Army veteran and HSW365 founder Elvin Torres Sr., reproduced on a premium black cotton tee.</p><p>Every piece in the Survivor Collection traces one story: surviving the unspoken and wearing proof of it. Turn negative into positive.</p><ul>\n<li>Premium black cotton tee, printed to order</li>\n<li>Artwork from the original hand-bleached #008</li>\n<li>The signed one-of-one original lives in the Survivor Collection</li>\n</ul>",
+      "product_type": "T-Shirt",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/survivor-008-founders-mark-mockup.jpg?v=1793279273",
+      "image_alt": "Survivor Print Edition #008 Founder's Mark black tee",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789882529",
+          "title": "S",
+          "sku": "SPE-008-S",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789915297",
+          "title": "M",
+          "sku": "SPE-008-M",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789948065",
+          "title": "L",
+          "sku": "SPE-008-L",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425789980833",
+          "title": "XL",
+          "sku": "SPE-008-XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425790013601",
+          "title": "2XL",
+          "sku": "SPE-008-2XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "2XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48425790046369",
+          "title": "3XL",
+          "sku": "SPE-008-3XL",
+          "price": "60.00",
+          "inventory_quantity": 0,
+          "options": [
+            {
+              "name": "Size",
+              "value": "3XL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "shopify_product_id": "gid://shopify/Product/8843689328801",
+      "handle": "ahkeeco",
+      "title": "AHKEEco",
+      "description_html": "<p>ahkee.co = brotherly love</p><hr><p><strong>Gildan G185 Adult Heavy Blend  8 oz., 50/50 Hood</strong></p><ul><li>8 oz.,</li></ul><ul><li>50% cotton 50% polyester blend</li></ul><ul><li>Heather Sport colors: 60% polyester, 40% cotton</li></ul><ul><li>Pill-resistant air jet yarn</li></ul><ul><li>Classic fit</li></ul><ul><li>Double-lined hood with color-matched drawcord</li></ul><ul><li>1 x 1 rib with spandex for enhanced stretch and recovery</li></ul><ul><li>Pouch pocket</li></ul><ul><li>Tear away label</li></ul><table id=\"sizechart\" style=\"width:100%; border-collapse: collapse;\" border=\"1\"><tbody>\n<tr>\n<th style=\"padding: 8px; text-align: left;\">Size</th>\n<th style=\"padding: 8px; text-align: left;\">Body length</th>\n<th style=\"padding: 8px; text-align: left;\">Full body length</th>\n<th style=\"padding: 8px; text-align: left;\">Body width</th>\n<th style=\"padding: 8px; text-align: left;\">Sleeve length</th>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">XS</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n<td style=\"padding: 8px; text-align: left;\">18\"</td>\n<td style=\"padding: 8px; text-align: left;\">32 1/2\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">S</td>\n<td style=\"padding: 8px; text-align: left;\">27\"</td>\n<td style=\"padding: 8px; text-align: left;\">27\"</td>\n<td style=\"padding: 8px; text-align: left;\">20\"</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">M</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">22\"</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">L</td>\n<td style=\"padding: 8px; text-align: left;\">29\"</td>\n<td style=\"padding: 8px; text-align: left;\">29\"</td>\n<td style=\"padding: 8px; text-align: left;\">24\"</td>\n<td style=\"padding: 8px; text-align: left;\">35\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">XL</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">26\"</td>\n<td style=\"padding: 8px; text-align: left;\">36\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">2XL</td>\n<td style=\"padding: 8px; text-align: left;\">31\"</td>\n<td style=\"padding: 8px; text-align: left;\">31\"</td>\n<td style=\"padding: 8px; text-align: left;\">28\"</td>\n<td style=\"padding: 8px; text-align: left;\">37\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">3XL</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">38\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">4XL</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">33\"</td>\n<td style=\"padding: 8px; text-align: left;\">32\"</td>\n<td style=\"padding: 8px; text-align: left;\">39\"</td>\n</tr>\n<tr>\n<td style=\"padding: 8px; text-align: left;\">5XL</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n<td style=\"padding: 8px; text-align: left;\">30\"</td>\n<td style=\"padding: 8px; text-align: left;\">34\"</td>\n<td style=\"padding: 8px; text-align: left;\">40\"</td>\n</tr>\n</tbody></table>",
+      "product_type": "",
+      "category": "merch",
+      "shopify_status": "ACTIVE",
+      "image_url": "https://cdn.shopify.com/s/files/1/0718/4351/2481/files/ninjapod_media_3607143_578651_51_FRONT.jpg?v=1793465638",
+      "image_alt": "ndm:3607143",
+      "variants": [
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049265313",
+          "title": "Black / XS",
+          "sku": "19g61mvwmw1cg",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "XS"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049298081",
+          "title": "Black / S",
+          "sku": "19g61mvwmw1ch",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "S"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049330849",
+          "title": "Black / M",
+          "sku": "19g61mvwmw1ci",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "M"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049363617",
+          "title": "Black / L",
+          "sku": "19g61mvwmw1cj",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "L"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049396385",
+          "title": "Black / XL",
+          "sku": "19g61mvwmw1ck",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049429153",
+          "title": "Black / 2XL",
+          "sku": "19g61mvwmw1cl",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "2XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049461921",
+          "title": "Black / 3XL",
+          "sku": "19g61mvwmw1cm",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "3XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049494689",
+          "title": "Black / 4XL",
+          "sku": "19g61mvwmw1cn",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "4XL"
+            }
+          ]
+        },
+        {
+          "shopify_variant_id": "gid://shopify/ProductVariant/48487049527457",
+          "title": "Black / 5XL",
+          "sku": "19g61mvwmw1co",
+          "price": "34.99",
+          "inventory_quantity": 9999,
+          "options": [
+            {
+              "name": "Color",
+              "value": "Black"
+            },
+            {
+              "name": "Size",
+              "value": "5XL"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
