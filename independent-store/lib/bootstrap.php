@@ -49,3 +49,17 @@ function stripe_request(string $method, string $path, array $payload = []): arra
     }
     return $data;
 }
+function queue_fulfillment_jobs(PDO $pdo, string $orderRef): void {
+    $stmt=$pdo->prepare('SELECT items_json FROM orders WHERE order_ref=? LIMIT 1');
+    $stmt->execute([$orderRef]);
+    $items=json_decode((string)$stmt->fetchColumn(),true);
+    $providers=[];
+    foreach((is_array($items)?$items:[]) as $item){
+        $provider=$item['provider']??'unassigned';
+        if(!in_array($provider,['unassigned','printful','cj','manual','digital'],true))$provider='unassigned';
+        $providers[$provider]=true;
+    }
+    if(!$providers)$providers=['unassigned'=>true];
+    $insert=$pdo->prepare("INSERT IGNORE INTO fulfillment_jobs (order_ref,provider,status,created_at) VALUES (?,?, 'needs_mapping', NOW())");
+    foreach(array_keys($providers) as $provider)$insert->execute([$orderRef,$provider]);
+}
