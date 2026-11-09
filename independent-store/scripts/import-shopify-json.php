@@ -20,7 +20,7 @@ try {
   foreach(($p['variants']??[]) as $v) {
    $category=$p['category']??'merch';
    $provider=in_array($category,['music','digital'],true)?'digital':'unassigned';
-   $interval=$category==='apps'?'month':'one_time';\n   $interval=$category==='apps'?'month':'one_time';
+   $interval=$category==='apps'?'month':'one_time';
    $inventory=$v['inventory_quantity']??null;
    $variantSql->execute([$productId,$v['shopify_variant_id'],$v['title'],$v['sku']??null,$v['price'],$interval,$inventory,json_encode($v['options']??[]),$provider]);
    $variants++;
