@@ -1,20 +1,36 @@
 CREATE TABLE IF NOT EXISTS products (
   id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
-  shopify_product_id VARCHAR(64) NULL,
+  shopify_product_id VARCHAR(64) NULL UNIQUE,
   handle VARCHAR(255) NOT NULL UNIQUE,
   title VARCHAR(255) NOT NULL,
   description MEDIUMTEXT NULL,
   category VARCHAR(80) NOT NULL DEFAULT 'merch',
-  price DECIMAL(10,2) NOT NULL,
   currency CHAR(3) NOT NULL DEFAULT 'USD',
   image_url TEXT NULL,
-  sku VARCHAR(100) NULL,
-  inventory_quantity INT NULL,
+  image_alt VARCHAR(500) NULL,
   status ENUM('draft','active','archived') NOT NULL DEFAULT 'draft',
   sort_order INT NOT NULL DEFAULT 0,
   updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
   created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
   INDEX idx_products_status_category (status, category)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+CREATE TABLE IF NOT EXISTS product_variants (
+  id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  product_id BIGINT UNSIGNED NOT NULL,
+  shopify_variant_id VARCHAR(64) NULL UNIQUE,
+  title VARCHAR(255) NOT NULL,
+  sku VARCHAR(100) NULL,
+  price DECIMAL(10,2) NOT NULL,
+  inventory_quantity INT NULL,
+  options_json JSON NULL,
+  provider ENUM('unassigned','printful','cj','manual','digital') NOT NULL DEFAULT 'unassigned',
+  provider_variant_id VARCHAR(255) NULL,
+  status ENUM('draft','active','archived') NOT NULL DEFAULT 'draft',
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_variant_product FOREIGN KEY (product_id) REFERENCES products(id) ON DELETE CASCADE,
+  INDEX idx_variant_product_status (product_id, status)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 CREATE TABLE IF NOT EXISTS orders (
@@ -25,7 +41,7 @@ CREATE TABLE IF NOT EXISTS orders (
   customer_email VARCHAR(255) NULL,
   status VARCHAR(40) NOT NULL DEFAULT 'pending_payment',
   currency CHAR(3) NOT NULL DEFAULT 'USD',
-  subtotal_cents INT UNSIGNED NOT NULL DEFAULT 0,
+  subtotal_cents BIGINT UNSIGNED NOT NULL DEFAULT 0,
   items_json JSON NOT NULL,
   shipping_json JSON NULL,
   paid_at DATETIME NULL,
@@ -42,7 +58,7 @@ CREATE TABLE IF NOT EXISTS stripe_webhook_events (
 CREATE TABLE IF NOT EXISTS fulfillment_jobs (
   id BIGINT UNSIGNED NOT NULL AUTO_INCREMENT PRIMARY KEY,
   order_ref CHAR(32) NOT NULL,
-  provider ENUM('unassigned','printful','cj','manual') NOT NULL DEFAULT 'unassigned',
+  provider ENUM('unassigned','printful','cj','manual','digital') NOT NULL DEFAULT 'unassigned',
   provider_order_id VARCHAR(255) NULL,
   status VARCHAR(40) NOT NULL DEFAULT 'needs_mapping',
   tracking_number VARCHAR(255) NULL,
