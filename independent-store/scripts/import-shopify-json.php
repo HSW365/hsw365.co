@@ -9,7 +9,7 @@ $data=json_decode((string)file_get_contents($argv[1]),true,512,JSON_THROW_ON_ERR
 if (($data['store']??'')!=='hsw365.co' || !is_array($data['products']??null)) throw new RuntimeException('Unexpected product export file.');
 $pdo=db();
 $productSql=$pdo->prepare("INSERT INTO products (shopify_product_id,handle,title,category,currency,image_url,image_alt,status) VALUES (?,?,?,?, 'USD',?,?, 'draft') ON DUPLICATE KEY UPDATE id=LAST_INSERT_ID(id),title=VALUES(title),category=VALUES(category),image_url=VALUES(image_url),image_alt=VALUES(image_alt)");
-$variantSql=$pdo->prepare("INSERT INTO product_variants (product_id,shopify_variant_id,title,sku,price,inventory_quantity,options_json,provider,status) VALUES (?,?,?,?,?,?,?,?, 'draft') ON DUPLICATE KEY UPDATE product_id=VALUES(product_id),title=VALUES(title),sku=VALUES(sku),price=VALUES(price),inventory_quantity=VALUES(inventory_quantity),options_json=VALUES(options_json)");
+$variantSql=$pdo->prepare("INSERT INTO product_variants (product_id,shopify_variant_id,title,sku,price,billing_interval,inventory_quantity,options_json,provider,status) VALUES (?,?,?,?,?,?,?,?,?, 'draft') ON DUPLICATE KEY UPDATE product_id=VALUES(product_id),title=VALUES(title),sku=VALUES(sku),price=VALUES(price),billing_interval=VALUES(billing_interval),inventory_quantity=VALUES(inventory_quantity),options_json=VALUES(options_json)");
 $products=0;$variants=0;
 $pdo->beginTransaction();
 try {
@@ -19,9 +19,9 @@ try {
   if($productId<1){$s=$pdo->prepare('SELECT id FROM products WHERE handle=?');$s->execute([$p['handle']]);$productId=(int)$s->fetchColumn();}
   foreach(($p['variants']??[]) as $v) {
    $category=$p['category']??'merch';
-   $provider=in_array($category,['music','digital'],true)?'digital':'unassigned';
+   $provider=in_array($category,['music','digital'],true)?'digital':'unassigned';\n   $interval=$category==='apps'?'month':'one_time';
    $inventory=$v['inventory_quantity']??null;
-   $variantSql->execute([$productId,$v['shopify_variant_id'],$v['title'],$v['sku']??null,$v['price'],$inventory,json_encode($v['options']??[]),$provider]);
+   $variantSql->execute([$productId,$v['shopify_variant_id'],$v['title'],$v['sku']??null,$v['price'],$interval,$inventory,json_encode($v['options']??[]),$provider]);
    $variants++;
   }
   $products++;
