@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://hsw365.net/sitemap.xml
