@@ -215,7 +215,7 @@ def main() -> None:
             + "\n".join(f"- {title}: code {code}" for title, code in created)
             + "\n\nConsider pairing each with a quick story/post using the code."
         )
-        send_email("hsw365.co — Slow-Mover Discounts Created", body)
+        send_email("hsw365.net — Slow-Mover Discounts Created", body)
     else:
         print("[discount_rotator] No slow movers to flag this run.")
 

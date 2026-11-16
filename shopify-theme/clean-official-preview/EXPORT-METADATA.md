@@ -1,6 +1,6 @@
 # Export metadata
 
-Source store: `hsw365.co`
+Source store: `hsw365.net`
 Theme: `HSW365 — Clean Official Storefront (Preview)`
 Theme ID: `gid://shopify/OnlineStoreTheme/156395733153`
 Export date: 2026-11-09

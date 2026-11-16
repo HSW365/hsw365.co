@@ -1,6 +1,6 @@
-# hsw365.co Automation
+# hsw365.net Automation
 
-Automates the Shopify store for HOODSTARWORLD streetwear (hsw365.co /
+Automates the Shopify store for HOODSTARWORLD streetwear (hsw365.net /
 pc9bg8-gv.myshopify.com).
 
 ## What it does

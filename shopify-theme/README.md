@@ -1,6 +1,6 @@
 # HSW365 Shopify theme export
 
-This folder contains a source export of the Shopify theme **HSW365 — Clean Official Storefront (Preview)** from store `hsw365.co`.
+This folder contains a source export of the Shopify theme **HSW365 — Clean Official Storefront (Preview)** from store `hsw365.net`.
 
 - Shopify theme ID: `gid://shopify/OnlineStoreTheme/156395733153`
 - Shopify role at export: `UNPUBLISHED` (preview)

@@ -2,7 +2,7 @@
 """
 HSW365.co — Inventory Guardian
 ================================
-Automates the hsw365.co Shopify store (HOODSTARWORLD streetwear):
+Automates the hsw365.net Shopify store (HOODSTARWORLD streetwear):
 
 1. SOLD-OUT HANDLING (one-of-one Survivor Collection):
    Every Survivor Collection tee is a hand-bleached 1-of-1. The moment a
@@ -197,7 +197,7 @@ def main() -> None:
             + "\n\nConsider posting a 'SOLD' story/reel to drive urgency on "
             "the remaining pieces."
         )
-        send_email("hsw365.co — Piece(s) Sold, Auto-Archived", body)
+        send_email("hsw365.net — Piece(s) Sold, Auto-Archived", body)
 
     # --- Low stock notification ---
     if low_stock_alerts:
@@ -206,18 +206,18 @@ def main() -> None:
             + "\n".join(f"- {a}" for a in low_stock_alerts)
             + "\n\nConsider a restock push or 'almost gone' content."
         )
-        send_email("hsw365.co — Low Stock Alert", body)
+        send_email("hsw365.net — Low Stock Alert", body)
 
     # --- Daily digest (first run after 00:00 UTC) ---
     now = datetime.now(timezone.utc)
     if now.hour == 0 and now.minute < 30:
         body = (
-            f"Daily hsw365.co snapshot ({now.date().isoformat()}):\n\n"
+            f"Daily hsw365.net snapshot ({now.date().isoformat()}):\n\n"
             f"- Survivor Collection pieces still live: {survivor_pieces_live}\n"
             f"- Survivor Collection units remaining: {survivor_units_left}\n"
             f"- Founder's Print Series units remaining: {print_units_left}\n"
         )
-        send_email("hsw365.co — Daily Inventory Snapshot", body)
+        send_email("hsw365.net — Daily Inventory Snapshot", body)
 
     if not sold_out_actions and not low_stock_alerts:
         print("[inventory_guardian] No action needed this run.")
